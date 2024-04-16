@@ -10,37 +10,42 @@ Restrições do Projeto: Enumeraremos as restrições que podem influenciar o es
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Nome: Sandra 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Idade: 33 anos 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Localização: São Paulo, Brasil 
+
+Estado Civil: Solteira 
+
+Ocupação: Trabalha na área de publicidade 
+
+Estilo de Vida: Gosta de passar as noites em casa 
+
+Interesses: Assinante de diversos serviços de streaming 
+
+Situação: Morando sozinha com seu gato, procura por algo para assistir nas noites em casa, mas muitas vezes se vê indecisa diante da variedade de opções disponíveis nos serviços de streaming. 
+
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Como Sandra, uma publicitária de 33 anos de São Paulo, solteira e com um gato de estimação, desejo receber recomendações personalizadas de filmes com base nas minhas preferências e interesses, para facilitar a escolha do que assistir durante minhas noites em casa. 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+Como Ricardo, um estudante universitário de 21 anos, apaixonado por cinema de terror, desejo ter acesso a uma seção exclusiva com uma ampla seleção de filmes de terror, para explorar novas produções do meu gênero favorito. 
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Como João, um executivo de 45 anos, casado e pai de dois filhos, desejo encontrar filmes adequados para assistir em família, para garantir momentos de entretenimento e diversão com meus filhos. 
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+Como Ana, uma professora aposentada de 65 anos, desejo descobrir filmes clássicos e obras cinematográficas aclamadas pela crítica, para expandir meu conhecimento e apreciar a arte do cinema. 
+
+Como Pedro, um cinéfilo aficionado por filmes de ficção científica, desejo receber notificações sobre lançamentos e eventos especiais relacionados ao meu gênero favorito, para não perder nenhuma novidade do mundo do cinema. 
+
+Como Maria, uma jovem de 28 anos que adora comédias românticas, desejo ter a opção de criar uma lista de filmes favoritos e compartilhá-la com meus amigos, para recomendarmos uns aos outros nossas melhores escolhas. 
+
+Como Carlos, um crítico de cinema renomado, desejo ter acesso antecipado a exibições exclusivas e pré-estreias de filmes, para escrever análises e resenhas detalhadas para meu público. 
+
+Como Amanda, uma estudante de cinema de 20 anos, desejo encontrar documentários informativos e inspiradores sobre diversos temas, para me aprofundar em assuntos de meu interesse e ampliar minha visão de mundo. 
 
 ## Requisitos
 
@@ -50,16 +55,36 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| MÉDIA |  
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| MEDÍA |  
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Segurança  | ALTA | 
+|RNF-002| Desempenho  |  ALTA | 
+|RNF-001| Confiabilidade  | ALTA | 
+|RNF-002|  Escalabilidade  |  MEDÍA |
+|RNF-001| Usabilidade  | ALTA | 
+|RNF-002| Compatibilidade  |  ALTA |
+|RNF-001| Manutenibilidade  | MÉDIA | 
+|RNF-002| Localização |  MEDÍA |
+|RNF-001| Acessibilidade  | ALTA | 
+|RNF-002| Backup e Recuperação  |  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
