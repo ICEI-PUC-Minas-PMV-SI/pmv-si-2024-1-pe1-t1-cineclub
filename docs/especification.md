@@ -55,7 +55,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.
+           Os usuários devem poder acessar a plataforma através de um sistema de autenticação seguro, utilizando um nome de usuário e senha.
+| ALTA |  
 |RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
 |RF-003| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
 |RF-004| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
