@@ -77,14 +77,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Segurança  | ALTA | 
 |RNF-002| Desempenho  |  ALTA | 
-|RNF-001| Confiabilidade  | ALTA | 
-|RNF-002|  Escalabilidade  |  MEDÍA |
-|RNF-001| Usabilidade  | ALTA | 
-|RNF-002| Compatibilidade  |  ALTA |
-|RNF-001| Manutenibilidade  | MÉDIA | 
-|RNF-002| Localização |  MEDÍA |
-|RNF-001| Acessibilidade  | ALTA | 
-|RNF-002| Backup e Recuperação  |  ALTA |
+|RNF-003| Confiabilidade  | ALTA | 
+|RNF-004|  Escalabilidade  |  MEDÍA |
+|RNF-005| Usabilidade  | ALTA | 
+|RNF-006| Compatibilidade  |  ALTA |
+|RNF-007| Manutenibilidade  | MÉDIA | 
+|RNF-008| Localização |  MEDÍA |
+|RNF-009| Acessibilidade  | ALTA | 
+|RNF-010| Backup e Recuperação  |  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -107,8 +107,20 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01|Todas as imagens e conteúdos utilizados no aplicativo devem ser devidamente licenciados para evitar violações de direitos autorais.  |
+|02| O sistema deve ser desenvolvido usando metodologias ágeis.         |
+|03| O aplicativo deve ser compatível com as principais plataformas móveis, como iOS e Android. |
+|04| A equipe de desenvolvimento deve seguir as diretrizes de design de interface do usuário estabelecidas pela plataforma alvo. |
+|05| Todas as transações financeiras realizadas pelo aplicativo devem ser criptografadas para garantir a segurança dos dados do usuário.         |
+|06| O tempo de resposta do sistema para interações do usuário não deve exceder 2 segundos para garantir uma experiência de usuário responsiva.  |
+|07| O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma base de usuários diversificada.      |
+|08| As informações pessoais dos usuários, como nome, endereço e informações de pagamento, devem ser armazenadas de forma segura e em conformidade com os padrões de segurança de dados.  |
+|09| O aplicativo deve ser otimizado para desempenho e eficiência de uso de recursos, minimizando o consumo de bateria e dados.        |
+|10| Deve ser implementado um sistema de backup regular para proteger os dados do usuário contra perda ou corrupção.  |
+|11| O aplicativo não deve permitir o compartilhamento não autorizado de conteúdo protegido por direitos autorais entre usuários.      |
+|12| O sistema deve ser capaz de lidar com um grande número de usuários simultâneos sem comprometer o desempenho ou a estabilidade. 
+
+  |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
