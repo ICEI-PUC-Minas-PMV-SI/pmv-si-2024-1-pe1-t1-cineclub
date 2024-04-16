@@ -1,10 +1,13 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Nas especificações do projeto, vamos abordar uma panorâmica detalhada do Cineclube, uma plataforma voltada para entusiastas do cinema. Essas etapas nos ajudarão a definir de forma precisa os requisitos e características da plataforma do Cineclube, garantindo que a solução proposta seja eficaz e atenda às expectativas dos usuários e do mercado. Para elaborar as especificações do projeto, empregaremos várias técnicas e ferramentas comuns na concepção de projetos digitais: 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+    Análise do Contexto do Mercado: Realizaremos uma análise minuciosa do mercado de streaming de filmes, incluindo avaliação de tendências, estudo da concorrência e compreensão das necessidades dos usuários. 
+    Definição do Problema e Solução Proposta: Com base na análise do mercado, identificaremos os principais desafios enfrentados pelos usuários, como a dificuldade em encontrar filmes que correspondam aos seus gostos. Em seguida, proporemos uma solução adequada para atender a essas necessidades. 
+    Criação de Personas: Desenvolveremos personas que representem os diferentes perfis de usuários do Cineclube, como cinéfilos ávidos por descobrir obras obscuras e espectadores casuais em busca de entretenimento. 
+    Histórias de Usuários: A partir das personas definidas, criaremos histórias de usuários que descrevem situações de uso da plataforma, detalhando as necessidades específicas dos usuários e os objetivos que desejam alcançar. 
+    Requisitos Funcionais e Não Funcionais: Com base nas histórias de usuários, identificaremos os requisitos funcionais, como funcionalidades de busca avançada, e requisitos não funcionais, como requisitos de desempenho e segurança. 
+    Restrições do Projeto: Enumeraremos as restrições que podem influenciar o escopo do projeto, como prazos de desenvolvimento e limitações de recursos. 
 
 ## Personas
 
