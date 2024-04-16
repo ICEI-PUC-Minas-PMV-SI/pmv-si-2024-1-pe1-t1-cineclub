@@ -136,12 +136,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |10| Deve ser implementado um sistema de backup regular para proteger os dados do usuário contra perda ou corrupção.  |
 |11| O aplicativo não deve permitir o compartilhamento não autorizado de conteúdo protegido por direitos autorais entre usuários.      |
 |12| O sistema deve ser capaz de lidar com um grande número de usuários simultâneos sem comprometer o desempenho ou a estabilidade. 
-
-  |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
