@@ -55,37 +55,37 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
-Os usuários devem poder acessar a plataforma através de um sistema de autenticação seguro, utilizando um nome de usuário e senha.
-|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
-|RF-003| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
-|RF-004| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
-|RF-005| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
-|RF-006| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
-|RF-007| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
-|RF-008| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
-|RF-009| A aplicação deve permitir que o usuário faça login na plataforma.| MÉDIA |  
-|RF-010| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
-|RF-011| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
-|RF-012| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
-|RF-013| A aplicação deve permitir que o usuário faça login na plataforma.| MEDÍA |  
-|RF-014| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
+|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.Os usuários devem poder acessar a plataforma através de um sistema de autenticação seguro, utilizando um nome de usuário e senha.| ALTA |  
+
+|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título. Os usuários devem poder pesquisar filmes na plataforma digitando o título desejado em um campo de busca.   | ALTA | 
+|RF-003| A aplicação deve permitir que o usuário faça login na plataforma.Após a pesquisa, os usuários devem poder visualizar informações detalhadas sobre cada filme, incluindo sinopse, elenco, avaliações e gênero.| ALTA |  
+|RF-004| A aplicação deve permitir que o usuário pesquise filmes por título.Os usuários devem poder adicionar filmes à sua lista de favoritos para acessá-los facilmente posteriormente.    | MÉDIA | 
+|RF-005| A aplicação deve permitir que o usuário faça login na plataforma.Com base no histórico de visualização e nas interações do usuário, a plataforma deve sugerir filmes que possam ser do interesse do usuário.| ALTA |  
+|RF-006| A aplicação deve permitir que o usuário pesquise filmes por título.Os usuários devem poder atribuir uma classificação e deixar comentários sobre os filmes que assistiram.    | MÉDIA | 
+|RF-007| A aplicação deve permitir que o usuário faça login na plataforma.Os usuários devem poder visualizar um calendário com os lançamentos de filmes nos cinemas e nos serviços de streaming. | BAIXA |  
+|RF-008| A aplicação deve permitir que o usuário pesquise filmes por título.Os usuários devem poder criar listas personalizadas de filmes, como "Filmes para Assistir", "Filmes Assistidos", entre outras.    | MÉDIA | 
+|RF-009| A aplicação deve permitir que o usuário faça login na plataforma.Os usuários devem poder refinar suas buscas por filmes utilizando filtros como gênero, ano de lançamento, diretor, entre outros. A plataforma deve estar disponível em diferentes idiomas para atender a uma ampla variedade de usuários. | MÉDIA |  
+|RF-010| A aplicação deve permitir que o usuário pesquise filmes por título.A aplicação deve permitir que os usuários compartilhem informações sobre filmes, sessões agendadas e avaliações em suas redes sociais, como Facebook, Twitter e Instagram.    | BAIXA | 
+|RF-011| A aplicação deve permitir que o usuário faça login na plataforma.A aplicação deve permitir que os usuários compartilhem informações sobre filmes, sessões agendadas e avaliações em suas redes sociais, como Facebook, Twitter e Instagram. | BAIXA |  
+|RF-012| A aplicação deve permitir que o usuário pesquise filmes por título. A aplicação deve listar uma lista de filmes acessados ou pesquisados ou pelos usuários.  | BAIXA | 
+|RF-013| A aplicação deve permitir que o usuário faça login na plataforma.O software deve oferecer notícias sobre o mundo do cinema, como lançamentos, destaques do ano, recordações e etc. | MEDÍA |  
+|RF-014| A aplicação deve permitir que o usuário pesquise filmes por título.Disponibilizar planos com diferentes tipos de funcionalidades e vantagens especificas para cada um dos planos.   | ALTA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Segurança  | ALTA | 
-|RNF-002| Desempenho  |  ALTA | 
-|RNF-003| Confiabilidade  | ALTA | 
-|RNF-004|  Escalabilidade  |  MEDÍA |
-|RNF-005| Usabilidade  | ALTA | 
-|RNF-006| Compatibilidade  |  ALTA |
-|RNF-007| Manutenibilidade  | MÉDIA | 
-|RNF-008| Localização |  MEDÍA |
-|RNF-009| Acessibilidade  | ALTA | 
-|RNF-010| Backup e Recuperação  |  ALTA |
+|RNF-001| Segurança: A aplicação deve garantir a segurança dos dados dos usuários, utilizando criptografia para proteger informações sensíveis, como senhas e informações de pagamento.  | ALTA | 
+|RNF-002| Desempenho : A aplicação deve ser rápida e responsiva, garantindo tempos de carregamento rápidos e uma experiência de usuário fluida, mesmo em picos de tráfego.   |  ALTA | 
+|RNF-003| Confiabilidade : A aplicação deve ser altamente confiável, garantindo disponibilidade constante e mínima ocorrência de falhas ou erros.  | ALTA | 
+|RNF-004|  Escalabilidade : A aplicação deve ser projetada para escalabilidade, sendo capaz de lidar com um aumento significativo no número de usuários e de filmes cadastrados sem comprometer o desempenho.  |  MEDÍA |
+|RNF-005| Usabilidade : A aplicação deve ser intuitiva e de fácil utilização, garantindo que usuários de diferentes níveis de habilidade possam navegar e interagir com a plataforma sem dificuldades.  | ALTA | 
+|RNF-006| Compatibilidade : A aplicação deve ser compatível com uma ampla variedade de dispositivos e navegadores, garantindo uma experiência consistente em diferentes plataformas.   |  ALTA |
+|RNF-007| Manutenibilidade : A aplicação deve ser facilmente mantida e atualizada, utilizando boas práticas de desenvolvimento de software e documentação clara do código-fonte.  | MÉDIA | 
+|RNF-008| Localização : A aplicação deve oferecer suporte à localização, permitindo que os usuários personalizem o idioma e as configurações de região conforme sua preferência.  |  MEDÍA |
+|RNF-009| Acessibilidade : A aplicação deve ser acessível para pessoas com deficiência, seguindo as diretrizes de acessibilidade da Web e fornecendo recursos como navegação por teclado e leitores de tela.   | ALTA | 
+|RNF-010| Backup e Recuperação : A aplicação deve realizar backups regulares dos dados dos usuários e garantir mecanismos eficientes de recuperação em caso de falhas ou perda de dados.  |  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
