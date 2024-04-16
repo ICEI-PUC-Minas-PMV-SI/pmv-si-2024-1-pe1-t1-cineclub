@@ -57,29 +57,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| 
 |RF-001| A aplicação deve permitir que o usuário faça login na plataforma.Os usuários devem poder acessar a plataforma através de um sistema de autenticação seguro, utilizando um nome de usuário e senha.| ALTA |  
 |RF-002| A aplicação deve permitir que o usuário pesquise filmes por título. Os usuários devem poder pesquisar filmes na plataforma digitando o título desejado em um campo de busca.| ALTA | 
-
 |RF-003| A aplicação deve permitir que o usuário faça login na plataforma.Após a pesquisa, os usuários devem poder visualizar informações detalhadas sobre cada filme, incluindo sinopse, elenco, avaliações e gênero.| ALTA |  
-
 |RF-004| A aplicação deve permitir que o usuário pesquise filmes por título.Os usuários devem poder adicionar filmes à sua lista de favoritos para acessá-los facilmente posteriormente.    | MÉDIA | 
-
 |RF-005| A aplicação deve permitir que o usuário faça login na plataforma.Com base no histórico de visualização e nas interações do usuário, a plataforma deve sugerir filmes que possam ser do interesse do usuário.| ALTA |  
-
 |RF-006| A aplicação deve permitir que o usuário pesquise filmes por título.Os usuários devem poder atribuir uma classificação e deixar comentários sobre os filmes que assistiram.    | MÉDIA | 
-
 |RF-007| A aplicação deve permitir que o usuário faça login na plataforma.Os usuários devem poder visualizar um calendário com os lançamentos de filmes nos cinemas e nos serviços de streaming. | BAIXA |  
-
 |RF-008| A aplicação deve permitir que o usuário pesquise filmes por título.Os usuários devem poder criar listas personalizadas de filmes, como "Filmes para Assistir", "Filmes Assistidos", entre outras.    | MÉDIA | 
-
 |RF-009| A aplicação deve permitir que o usuário faça login na plataforma.Os usuários devem poder refinar suas buscas por filmes utilizando filtros como gênero, ano de lançamento, diretor, entre outros. A plataforma deve estar disponível em diferentes idiomas para atender a uma ampla variedade de usuários. | MÉDIA |  
-
 |RF-010| A aplicação deve permitir que o usuário pesquise filmes por título.A aplicação deve permitir que os usuários compartilhem informações sobre filmes, sessões agendadas e avaliações em suas redes sociais, como Facebook, Twitter e Instagram.    | BAIXA | 
-
 |RF-011| A aplicação deve permitir que o usuário faça login na plataforma.A aplicação deve permitir que os usuários compartilhem informações sobre filmes, sessões agendadas e avaliações em suas redes sociais, como Facebook, Twitter e Instagram. | BAIXA |  
-
 |RF-012| A aplicação deve permitir que o usuário pesquise filmes por título. A aplicação deve listar uma lista de filmes acessados ou pesquisados ou pelos usuários.  | BAIXA | 
-
 |RF-013| A aplicação deve permitir que o usuário faça login na plataforma.O software deve oferecer notícias sobre o mundo do cinema, como lançamentos, destaques do ano, recordações e etc. | MEDÍA |  
-
 |RF-014| A aplicação deve permitir que o usuário pesquise filmes por título.Disponibilizar planos com diferentes tipos de funcionalidades e vantagens especificas para cada um dos planos.   | ALTA | 
 
 
