@@ -57,18 +57,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| 
 |RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
 |RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
-|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
-|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
-|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| MÉDIA |  
-|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
-|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
-|RF-001| A aplicação deve permitir que o usuário faça login na plataforma.| MEDÍA |  
-|RF-002| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
+|RF-003| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
+|RF-004| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
+|RF-005| A aplicação deve permitir que o usuário faça login na plataforma.| ALTA |  
+|RF-006| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
+|RF-007| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
+|RF-008| A aplicação deve permitir que o usuário pesquise filmes por título.   | MÉDIA | 
+|RF-009| A aplicação deve permitir que o usuário faça login na plataforma.| MÉDIA |  
+|RF-010| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
+|RF-011| A aplicação deve permitir que o usuário faça login na plataforma.| BAIXA |  
+|RF-012| A aplicação deve permitir que o usuário pesquise filmes por título.   | BAIXA | 
+|RF-013| A aplicação deve permitir que o usuário faça login na plataforma.| MEDÍA |  
+|RF-014| A aplicação deve permitir que o usuário pesquise filmes por título.   | ALTA | 
 
 
 ### Requisitos não Funcionais
