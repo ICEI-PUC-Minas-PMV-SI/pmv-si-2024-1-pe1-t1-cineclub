@@ -7,15 +7,22 @@
 
 ## Personas
 
-Sandra, uma mulher de 33 anos, vive em São Paulo, Brasil, e trabalha na área de publicidade. Apesar de solteira, prefere passar suas noites em casa na companhia de seu gato. 
+Sandra, uma mulher de 33 anos, vive em São Paulo, Brasil, e trabalha na área de publicidade. Apesar de solteira, prefere passar suas noites em casa na companhia de seu gato. Sandra, como entusiasta de serviços de streaming, ela está constantemente à procura do próximo programa ou filme para assistir. No entanto, muitas vezes, enfrenta dificuldade em tomar uma decisão devido à ampla variedade de opções disponíveis. Além disso, quando sabe qual filme deseja assistir, às vezes tem dificuldade em encontrá-lo entre os diversos serviços de streaming. Sandra adora ficar por dentro das novidades do universo do cinema e séries, acompanhar eventos e descobrir quais filmes são indicados em premiações.
 
-Ricardo, um engenheiro de software de 33 anos do Rio de Janeiro, Brasil, desfruta de uma vida social ativa ao lado de sua esposa e filhos. Ele adora sair para jantar com amigos e tem uma paixão pela música, tocando guitarra nas horas vagas.
+Ricardo, um engenheiro de software de 33 anos do Rio de Janeiro, Brasil, desfruta de uma vida social ativa ao lado de sua esposa e filhos. Ele adora sair para jantar com amigos e tem uma paixão pela música, tocando guitarra nas horas vagas.  Ricardo, à noite, após um dia de trabalho na área de tecnologia, Ricardo gosta de relaxar em casa e assistir a filmes de ação, filmes em família ou documentários interessantes nos serviços de streaming, onde ele aprecia a diversidade de opções disponíveis para escolher. Além disso, ele precisa de ter listas salvas como favoritos e indicações com sabe no que ele assitiu. 
+ ## Histórias de Usuários
 
 ## Histórias de Usuários
 
-Sandra, como entusiasta de serviços de streaming, ela está constantemente à procura do próximo programa ou filme para assistir. No entanto, muitas vezes, enfrenta dificuldade em tomar uma decisão devido à ampla variedade de opções disponíveis. Além disso, quando sabe qual filme deseja assistir, às vezes tem dificuldade em encontrá-lo entre os diversos serviços de streaming. Sandra adora ficar por dentro das novidades do universo do cinema e séries, acompanhar eventos e descobrir quais filmes são indicados em premiações.
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
- Ricardo, à noite, após um dia de trabalho na área de tecnologia, Ricardo gosta de relaxar em casa e assistir a filmes de ação, filmes em família ou documentários interessantes nos serviços de streaming, onde ele aprecia a diversidade de opções disponíveis para escolher. Além disso, ele precisa de ter listas salvas como favoritos e indicações com sabe no que ele assitiu. 
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+| Sara | Organizar minhas leituras          | Conciliar estudos e leitura
+|Ricardo | Recomendar novos livros | Incentivar a leitura
+|Sara  | Gerenciar meus lviros | Organizar minhas leituras
+|Ricardo | Encontrar novos livros | Expandir meus horizontes literários
+|Sara | Compartilhar minhas opiniões literária | Conhecer novos leitores e participar de um grupo
 
 ## Requisitos
 
