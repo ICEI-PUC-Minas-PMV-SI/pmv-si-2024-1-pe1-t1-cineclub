@@ -18,11 +18,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Sara | Organizar minhas leituras          | Conciliar estudos e leitura
-|Ricardo | Recomendar novos livros | Incentivar a leitura
-|Sara  | Gerenciar meus lviros | Organizar minhas leituras
-|Ricardo | Encontrar novos livros | Expandir meus horizontes literários
-|Sara | Compartilhar minhas opiniões literária | Conhecer novos leitores e participar de um grupo
+| Sara | Quero uma lista de filmes que combine com minha personalidade          | Não ter fadiga de opções
+|Ricardo | Quero uma lista de filmes por gênero que abranja todos os serviços de streaming | Saber onde encontrar o filme que desejar 
+|Sara  | Preciso de uma lista dos meus filmes já assistidos | Recordar do que já assisti
+|Ricardo | Encontrar novos filmes e documentários | Expandir meus horizontes
+|Sara | Avaliar filmes dando estrelas com notas de 1 a 5 | 
+|Ricardo | Quero uma lista de filmes que seja apenas para família | Para que meus filhos possam assistir
+|Sara  | Preciso ter indicações de novos filmes que ainda serão lançados nos serviços de streaming| Para assistir os filmes 
+|Sara  | Preciso saber as datas das premiações e filmes indicados | Para se manter ataulizada
 
 ## Requisitos
 
