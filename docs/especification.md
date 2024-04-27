@@ -22,11 +22,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ricardo | Quero uma lista de filmes por gênero que abranja todos os serviços de streaming | Saber onde encontrar o filme que desejar 
 |Sara  | Preciso de uma lista dos meus filmes já assistidos | Recordar do que já assisti
 |Ricardo | Encontrar novos filmes e documentários | Expandir meus horizontes
-|Sara | Avaliar filmes dando estrelas com notas de 1 a 5 | 
+|Sara | Avaliar filmes dando estrelas com notas de 1 a 5 | Para que possa compartilhar com meus amigos
 |Ricardo | Quero uma lista de filmes que seja apenas para família | Para que meus filhos possam assistir
 |Sara  | Preciso ter indicações de novos filmes que ainda serão lançados nos serviços de streaming| Para assistir os filmes 
 |Sara  | Preciso saber as datas das premiações e filmes indicados | Para se manter ataulizada
-
+|Sara  | Preciso poder compartilhar meus filmes assistidos e avaliações nas redes sociais| Para meus amigos saberem o que estou assistindo
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
