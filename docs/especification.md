@@ -7,42 +7,15 @@
 
 ## Personas
 
-Nome: Sandra 
+Sandra, uma mulher de 33 anos, vive em São Paulo, Brasil, e trabalha na área de publicidade. Apesar de solteira, prefere passar suas noites em casa na companhia de seu gato. 
 
-Idade: 33 anos 
-
-Localização: São Paulo, Brasil 
-
-Estado Civil: Solteira 
-
-Ocupação: Trabalha na área de publicidade 
-
-Estilo de Vida: Gosta de passar as noites em casa 
-
-Interesses: Assinante de diversos serviços de streaming 
-
-Situação: Morando sozinha com seu gato, procura por algo para assistir nas noites em casa, mas muitas vezes se vê indecisa diante da variedade de opções disponíveis nos serviços de streaming. 
-
-
-
+Ricardo, um engenheiro de software de 33 anos do Rio de Janeiro, Brasil, desfruta de uma vida social ativa ao lado de sua esposa e filhos. Ele adora sair para jantar com amigos e tem uma paixão pela música, tocando guitarra nas horas vagas.
 
 ## Histórias de Usuários
 
-Como Sandra, uma publicitária de 33 anos de São Paulo, solteira e com um gato de estimação, desejo receber recomendações personalizadas de filmes com base nas minhas preferências e interesses, para facilitar a escolha do que assistir durante minhas noites em casa. 
+Sandra, como entusiasta de serviços de streaming, ela está constantemente à procura do próximo programa ou filme para assistir. No entanto, muitas vezes, enfrenta dificuldade em tomar uma decisão devido à ampla variedade de opções disponíveis. Além disso, quando sabe qual filme deseja assistir, às vezes tem dificuldade em encontrá-lo entre os diversos serviços de streaming. Sandra adora ficar por dentro das novidades do universo do cinema e séries, acompanhar eventos e descobrir quais filmes são indicados em premiações.
 
-Como Ricardo, um estudante universitário de 21 anos, apaixonado por cinema de terror, desejo ter acesso a uma seção exclusiva com uma ampla seleção de filmes de terror, para explorar novas produções do meu gênero favorito. 
-
-Como João, um executivo de 45 anos, casado e pai de dois filhos, desejo encontrar filmes adequados para assistir em família, para garantir momentos de entretenimento e diversão com meus filhos. 
-
-Como Ana, uma professora aposentada de 65 anos, desejo descobrir filmes clássicos e obras cinematográficas aclamadas pela crítica, para expandir meu conhecimento e apreciar a arte do cinema. 
-
-Como Pedro, um cinéfilo aficionado por filmes de ficção científica, desejo receber notificações sobre lançamentos e eventos especiais relacionados ao meu gênero favorito, para não perder nenhuma novidade do mundo do cinema. 
-
-Como Maria, uma jovem de 28 anos que adora comédias românticas, desejo ter a opção de criar uma lista de filmes favoritos e compartilhá-la com meus amigos, para recomendarmos uns aos outros nossas melhores escolhas. 
-
-Como Carlos, um crítico de cinema renomado, desejo ter acesso antecipado a exibições exclusivas e pré-estreias de filmes, para escrever análises e resenhas detalhadas para meu público. 
-
-Como Amanda, uma estudante de cinema de 20 anos, desejo encontrar documentários informativos e inspiradores sobre diversos temas, para me aprofundar em assuntos de meu interesse e ampliar minha visão de mundo. 
+ Ricardo, à noite, após um dia de trabalho na área de tecnologia, Ricardo gosta de relaxar em casa e assistir a filmes de ação, filmes em família ou documentários interessantes nos serviços de streaming, onde ele aprecia a diversidade de opções disponíveis para escolher. Além disso, ele precisa de ter listas salvas como favoritos e indicações com sabe no que ele assitiu. 
 
 ## Requisitos
 
