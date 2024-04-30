@@ -10,7 +10,6 @@
 Sandra, uma mulher de 33 anos, vive em São Paulo, Brasil, e trabalha na área de publicidade. Apesar de solteira, prefere passar suas noites em casa na companhia de seu gato. Sandra, como entusiasta de serviços de streaming, ela está constantemente à procura do próximo programa ou filme para assistir. No entanto, muitas vezes, enfrenta dificuldade em tomar uma decisão devido à ampla variedade de opções disponíveis. Além disso, quando sabe qual filme deseja assistir, às vezes tem dificuldade em encontrá-lo entre os diversos serviços de streaming. Sandra adora ficar por dentro das novidades do universo do cinema e séries, acompanhar eventos e descobrir quais filmes são indicados em premiações.
 
 Ricardo, um engenheiro de software de 45 anos do Rio de Janeiro, Brasil, desfruta de uma vida social ativa ao lado de sua esposa e filhos. Ele adora sair para jantar com amigos e tem uma paixão pela música, tocando guitarra nas horas vagas.  Ricardo, à noite, após um dia de trabalho na área de tecnologia, Ricardo gosta de relaxar em casa e assistir a filmes de ação, filmes em família ou documentários interessantes nos serviços de streaming, onde ele aprecia a diversidade de opções disponíveis para escolher. Além disso, ele precisa de ter listas salvas como favoritos e indicações com sabe no que ele assistiu. 
- ## Histórias de Usuários
 
 ## Histórias de Usuários
 
@@ -50,31 +49,11 @@ RF-009	Permitir que Sara visualize o calendário de premiações e eventos relac
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Segurança: A aplicação deve garantir a segurança dos dados dos usuários, utilizando criptografia para proteger informações sensíveis, como senhas e informações de pagamento.  | ALTA | 
-|RNF-002| Desempenho : A aplicação deve ser rápida e responsiva, garantindo tempos de carregamento rápidos e uma experiência de usuário fluida, mesmo em picos de tráfego.   |  ALTA | 
-|RNF-003| Confiabilidade : A aplicação deve ser altamente confiável, garantindo disponibilidade constante e mínima ocorrência de falhas ou erros.  | ALTA | 
-|RNF-004|  Escalabilidade : A aplicação deve ser projetada para escalabilidade, sendo capaz de lidar com um aumento significativo no número de usuários e de filmes cadastrados sem comprometer o desempenho.  |  MEDÍA |
-|RNF-005| Usabilidade : A aplicação deve ser intuitiva e de fácil utilização, garantindo que usuários de diferentes níveis de habilidade possam navegar e interagir com a plataforma sem dificuldades.  | ALTA | 
-|RNF-006| Compatibilidade : A aplicação deve ser compatível com uma ampla variedade de dispositivos e navegadores, garantindo uma experiência consistente em diferentes plataformas.   |  ALTA |
-|RNF-007| Manutenibilidade : A aplicação deve ser facilmente mantida e atualizada, utilizando boas práticas de desenvolvimento de software e documentação clara do código-fonte.  | MÉDIA | 
-|RNF-008| Localização : A aplicação deve oferecer suporte à localização, permitindo que os usuários personalizem o idioma e as configurações de região conforme sua preferência.  |  MEDÍA |
-|RNF-009| Acessibilidade : A aplicação deve ser acessível para pessoas com deficiência, seguindo as diretrizes de acessibilidade da Web e fornecendo recursos como navegação por teclado e leitores de tela.   | ALTA | 
-|RNF-010| Backup e Recuperação : A aplicação deve realizar backups regulares dos dados dos usuários e garantir mecanismos eficientes de recuperação em caso de falhas ou perda de dados.  |  ALTA |
+|RNF-001| Desempenho : A aplicação deve ser rápida e responsiva, garantindo tempos de carregamento rápidos e uma experiência de usuário fluida, mesmo em picos de tráfego.   |  ALTA | 
+|RNF-002| Compatibilidade : A aplicação deve ser compatível com uma ampla variedade de dispositivos e navegadores, garantindo uma experiência consistente em diferentes plataformas.   |  ALTA |
+|RNF-003| Acessibilidade : A aplicação deve ser acessível para pessoas com deficiência, seguindo as diretrizes de acessibilidade da Web e fornecendo recursos como navegação por teclado e leitores de tela.   | ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -86,11 +65,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| O sistema deve ser desenvolvido usando metodologias ágeis.         |
 |03| O aplicativo deve ser compatível com as principais plataformas móveis, como iOS e Android. |
 |04| A equipe de desenvolvimento deve seguir as diretrizes de design de interface do usuário estabelecidas pela plataforma alvo. |
-|05| Todas as transações financeiras realizadas pelo aplicativo devem ser criptografadas para garantir a segurança dos dados do usuário.         |
-|06| O tempo de resposta do sistema para interações do usuário não deve exceder 2 segundos para garantir uma experiência de usuário responsiva.  |
-|07| O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma base de usuários diversificada.      |
-|08| As informações pessoais dos usuários, como nome, endereço e informações de pagamento, devem ser armazenadas de forma segura e em conformidade com os padrões de segurança de dados.  |
-|09| O aplicativo deve ser otimizado para desempenho e eficiência de uso de recursos, minimizando o consumo de bateria e dados.        |
-|10| Deve ser implementado um sistema de backup regular para proteger os dados do usuário contra perda ou corrupção.  |
-|11| O aplicativo não deve permitir o compartilhamento não autorizado de conteúdo protegido por direitos autorais entre usuários.      |
-|12| O sistema deve ser capaz de lidar com um grande número de usuários simultâneos sem comprometer o desempenho ou a estabilidade. 
