@@ -52,7 +52,7 @@ RF-009	Permitir que Sara visualize o calendário de premiações e eventos relac
 |RNF-001| Desempenho : A aplicação deve ser rápida e responsiva.   |  ALTA | 
 |RNF-002| Compatibilidade : A aplicação deve ser compatível com uma ampla variedade de dispositivos e navegadores, garantindo uma experiência consistente em diferentes plataformas.   |  ALTA |
 |RNF-003| Acessibilidade : A aplicação deve ser acessível para pessoas com deficiência, seguindo as diretrizes de acessibilidade da Web e fornecendo recursos como navegação por teclado e leitores de tela.   | ALTA | 
-| RNF - 004| 
+|RNF - 004| Não usaremos banco de dados nessa aplicação. 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
