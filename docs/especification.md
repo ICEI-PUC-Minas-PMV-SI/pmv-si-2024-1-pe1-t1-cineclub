@@ -65,3 +65,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| O sistema deve ser desenvolvido usando metodologias ágeis.         |
 |03| O aplicativo deve ser compatível com as principais plataformas móveis, como iOS e Android. |
 |04| A equipe de desenvolvimento deve seguir as diretrizes de design de interface do usuário estabelecidas pela plataforma alvo. |
+|05| A entrega do projeto deve ser no final do semestre. 
