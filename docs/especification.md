@@ -49,9 +49,10 @@ RF-009	Permitir que Sara visualize o calendário de premiações e eventos relac
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Desempenho : A aplicação deve ser rápida e responsiva, garantindo tempos de carregamento rápidos e uma experiência de usuário fluida, mesmo em picos de tráfego.   |  ALTA | 
+|RNF-001| Desempenho : A aplicação deve ser rápida e responsiva.   |  ALTA | 
 |RNF-002| Compatibilidade : A aplicação deve ser compatível com uma ampla variedade de dispositivos e navegadores, garantindo uma experiência consistente em diferentes plataformas.   |  ALTA |
 |RNF-003| Acessibilidade : A aplicação deve ser acessível para pessoas com deficiência, seguindo as diretrizes de acessibilidade da Web e fornecendo recursos como navegação por teclado e leitores de tela.   | ALTA | 
+| RNF - 004| 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
