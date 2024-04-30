@@ -41,7 +41,7 @@ RF-003	Permitir que os usuários possam visualizar informações detalhadas sobr
 RF-004	Permitir que os usuários recebam indicações com base nos filmes já assistidos	| MÉDIA |
 RF-005	Permitir que o usuário possa compartilhar nas redes sociais os filmes que assistiram e a nota atribuída	| ALTA |
 RF-006	Permitir que os usuários possam encontrar filmes por faixa etária	MÉDIA | ALTA |
-RF-007	Permitir que Sara receba recomendações personalizadas de filmes com base em suas preferências e perfil de visualização	| ALTA |
+RF-007	Permitir que Sara receba recomendações personalizadas de filmes com base em suas preferências e perfil de visualização	| ALTA 
 RF-008	Permitir que Ricardo receba notificações sobre lançamentos de novos filmes e documentários em serviços de streaming |	ALTA |
 RF-009	Permitir que Sara visualize o calendário de premiações e eventos relacionados ao cinema para ficar atualizada | ALTA |
 
