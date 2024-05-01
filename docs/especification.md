@@ -17,7 +17,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Sara | Quero uma lista de filmes que combine com minha personalidade          | Não ter fadiga de opções
+|Sara | Quero uma lista de filmes que combine com minha personalidade          | Não ter fadiga de opções
 |Ricardo | Quero uma lista de filmes por gênero que abranja todos os serviços de streaming | Saber onde encontrar o filme que desejar 
 |Sara  | Preciso de uma lista dos meus filmes já assistidos | Recordar do que já assisti
 |Ricardo | Encontrar novos filmes e documentários | Expandir meus horizontes
@@ -34,15 +34,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-ID	Descrição do Requisito	Prioridade
-RF-001	Permitir que o usuário faça login na plataforma. Os usuários devem poder acessar a plataforma através de um sistema de autenticação seguro, utilizando um nome de usuário e senha 	| ALTA |
-RF-002	Permitir que o usuário pesquise filmes por título	| ALTA |
-RF-003	Permitir que os usuários possam visualizar informações detalhadas sobre cada filme, incluindo sinopse, elenco, avaliações, gênero e qual streaming está disponível ou se está disponível para aluguel	| ALTA |
-RF-004	Permitir que os usuários recebam indicações com base nos filmes já assistidos, preferências e em acordo com seu perfil de visualização 	| BAIXA |
-RF-005	Permitir que os usuários possam compartilhar nas redes sociais os filmes que assistiram e a nota atribuída	| MÉDIA |
-RF-006	Permitir que os usuários possam encontrar filmes por faixa etária | MÉDIA |
-RF-007	Permitir que os usuários recebam notificações sobre lançamentos de novos filmes e documentários em serviços de streaming |	ALTA |
-RF-008	Permitir que os usuários visualize o calendário de premiações e eventos relacionados ao cinema para ficar atualizada | ALTA |
+RF-001|	Permitir que o usuário faça login na plataforma. Os usuários devem poder acessar a plataforma através de um sistema de autenticação seguro, utilizando um nome de usuário e senha 	| ALTA |
+RF-002|	Permitir que o usuário pesquise filmes por título	| ALTA |
+RF-003| Permitir que os usuários possam visualizar informações detalhadas sobre cada filme, incluindo sinopse, elenco, avaliações, gênero e qual streaming está disponível ou se está disponível para aluguel	| ALTA |
+RF-004 |	Permitir que os usuários recebam indicações com base nos filmes já assistidos, preferências e em acordo com seu perfil de visualização 	| BAIXA |
+RF-005|	Permitir que os usuários possam compartilhar nas redes sociais os filmes que assistiram e a nota atribuída	| MÉDIA |
+RF-006| Permitir que os usuários possam encontrar filmes por faixa etária | MÉDIA |
+RF-007| Permitir que os usuários recebam notificações sobre lançamentos de novos filmes e documentários em serviços de streaming |	ALTA |
+RF-008| Permitir que os usuários visualize o calendário de premiações e eventos relacionados ao cinema para ficar atualizada | ALTA |
 
 ### Requisitos não Funcionais
 
