@@ -44,6 +44,7 @@ RF-007| Permitir que os usuários possam encontrar filmes por faixa etária | M�
 RF-008| Permirir que os usuários possam encontrara filmes por categorias de gênero | ALTA |
 RF-009| Permitir que os usuários recebam notificações sobre lançamentos de novos filmes e documentários em serviços de streaming |	ALTA |
 RF-010| Permitir que os usuários visualize o calendário de premiações e eventos relacionados ao cinema para ficar atualizada | ALTA |
+RF-011| Permitir que o usuário faça o cadastro do seu nome, senha, email e suas preferências pessoais para as categorias ou gêneros que mais se identifica. |ALTA|
 
 ### Requisitos não Funcionais
 
