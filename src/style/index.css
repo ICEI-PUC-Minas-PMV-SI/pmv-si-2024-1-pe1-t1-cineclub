@@ -1,1 +1,8 @@
-@import './components/footer.css';
+/* UTILS */
+@import './utils/normalize.css';
+@import './utils/colors.css';
+@import './utils/fonts.css';
+
+/* PAGES */
+
+/* ELEMENTS */
