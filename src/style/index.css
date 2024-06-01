@@ -7,3 +7,5 @@
 
 /* ELEMENTS */
 @import './utils/header.css';
+@import './utils/main.css';
+@import './utils/footer.css';
