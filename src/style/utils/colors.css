@@ -2,6 +2,7 @@
   /* PRIMARY COLOR */
   --primary-color-dark: #3f0579;
   --primary-color: #6100c2;
+  --primary-color-variant1: #7c38c0;
   --primary-color-light: #ac72e7;
   --primary-color-subtle: #e7d5f9;
 
@@ -24,6 +25,7 @@
   --light-color6: #acadb3;
 
   /* DARK COLORS */
+  --darker-color: #1e1e1e;
   --darker-color1: #06080d;
   --darker-color2: #131117;
   --darker-color3: #171c21;
