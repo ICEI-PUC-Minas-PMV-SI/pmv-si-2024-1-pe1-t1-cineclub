@@ -1,3 +1,41 @@
-<header class="header fixed-grid has-1-cols">Header</header>
-<main class="main is-col-min-10">Main</main>
-<footer class="footer fixed-grid has-1-cols has-backgroud-black">Footer</footer>
+<!-- Conteúdo do Header -->
+<header class="header is-fixed-top">
+  <div class="container">
+    <div class="header-content">
+      <div class="columns">
+        <!-- Logotipo -->
+        <div class="column is-narrow">
+          <div class="navbar-brand logo-container">
+            <img scr="../../assets/images/img_logo.svg" alt=" Logotipo" />
+          </div>
+        </div>
+
+        <!-- Menu -->
+        <div class="column">
+          <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-menu-container">
+              <div class="navbar-start">
+                <a href="#" class="navbar-item home">Home</a>
+                <a href="#" class="navbar-item filmes">Filmes</a>
+                <a href="#" class="navbar-item series">Séries</a>
+                <a href="#" class="navbar-item sobreNos">Sobre Nós</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Container dos botões -->
+        <div class="column">
+          <div class="navbar-end buttons-container">
+            <button class="button-login is-primary is-margin-left">
+              Login
+            </button>
+            <button class="button-cadastrar is-info custom-border">
+              Cadastrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,133 @@
+.header {
+  background-color: var(--darker-color1);
+  height: auto;
+}
+
+.container {
+  height: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.43rem;
+}
+
+.column {
+  padding: 0;
+}
+
+/* LOGO */
+
+.logo-container {
+  width: 9.44rem;
+  height: 3.56rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1.75rem;
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* MENU */
+
+.navbar {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-menu-container {
+  margin-top: 3rem;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+  height: 1.81rem;
+  margin-right: 3.75rem;
+  font-family: Roboto;
+  font-size: 0.87rem;
+  font-weight: 500;
+  line-height: 1.00625rem;
+  color: var(--light-color3);
+  transition: color 0.3s;
+}
+
+.navbar-item:hover {
+  color: var(--primary-color-variant1);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.home {
+  color: var(--primary-color-variant1);
+  font-weight: 700;
+}
+
+.filmes,
+.series .sobreNos {
+  color: var(--light-color3);
+}
+
+.sobreNos {
+  white-space: nowrap;
+}
+
+/* BOTÕES */
+
+.buttons-container {
+  margin-top: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.button-login,
+.button-cadastrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7.03rem;
+  height: 1.81rem;
+  font-family: Roboto;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button-login {
+  background-color: var(--primary-color-dark);
+  color: var(--light-color1);
+}
+
+.button-login:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  box-shadow: 0px 0px 0.31rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.05); /* aumenta o tamanho do botão em 5% */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-cadastrar {
+  background-color: transparent;
+  border: 0.06rem var(--primary-color-dark) solid;
+  color: var(--primary-color-dark);
+}
+
+.button-cadastrar:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0px 0px 0.31rem rgba(0, 0, 0, 0.3);
+  color: var(--primary-color);
+}
+
+.is-margin-left {
+  margin-right: 1.75rem;
+}
+
+.custom-border {
+  border: 0.06rem var(--primary-color-dark) solid;
+}
