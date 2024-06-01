@@ -1,6 +1,10 @@
 .header {
-  background-color: var(--darker-color1);
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: auto;
+  background-color: var(--darker-color1);
+  z-index: 1000;
 }
 
 .container {
