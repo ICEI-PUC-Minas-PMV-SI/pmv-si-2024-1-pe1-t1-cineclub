@@ -1,11 +1,28 @@
 .footer {
   background-color: var(--black-color);
-  color: white;
-  text-align: center;
   padding: 1rem 0;
 }
 
-.title,
-.subtitle {
+.content-footer .title,
+.content-footer .subtitle {
   margin: 0.5rem 0;
+  color: var(--white-color);
+  font-weight: 400;
+}
+
+.content-footer .title {
+  font-size: 1.25rem;
+  position: relative; /* Adicione esta linha */
+}
+
+.content-footer .subtitle {
+  font-size: 0.75rem;
+}
+
+.content-footer .trademark-symbol {
+  font-size: 0.9375rem;
+  position: relative;
+  top: 0.25rem;
+  vertical-align: text-top;
+  margin-left: 0.125rem;
 }
