@@ -1,25 +1,28 @@
 .footer {
   background-color: var(--black-color);
-  color: var(--white-color);
-  height: 7rem;
+  padding: 1rem 0;
 }
 
-.title,
-.subtitle {
-  margin-bottom: 0.5rem;
+.content-footer .title,
+.content-footer .subtitle {
+  margin: 0.5rem 0;
   color: var(--white-color);
-  font-family: Roboto;
-
   font-weight: 400;
-  word-wrap: break-word;
 }
 
-.title {
+.content-footer .title {
   font-size: 1.25rem;
-  line-height: 1.5rem;
+  position: relative; /* Adicione esta linha */
 }
 
-.subtitle {
+.content-footer .subtitle {
   font-size: 0.75rem;
-  line-height: 1.05rem;
+}
+
+.content-footer .trademark-symbol {
+  font-size: 0.9375rem;
+  position: relative;
+  top: 0.25rem;
+  vertical-align: text-top;
+  margin-left: 0.125rem;
 }

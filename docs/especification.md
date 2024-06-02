@@ -45,6 +45,7 @@ RF-008| Permirir que os usuários possam encontrara filmes por categorias de gê
 RF-009| Permitir que os usuários recebam notificações sobre lançamentos de novos filmes e documentários em serviços de streaming |	ALTA |
 RF-010| Permitir que os usuários visualize o calendário de premiações e eventos relacionados ao cinema para ficar atualizada | ALTA |
 RF-011| Permitir que o usuário faça o cadastro do seu nome, senha, email e suas preferências pessoais para as categorias ou gêneros que mais se identifica. |ALTA|
+RF-012 | A plataforma deve ter uma Home Page |ALTA|
 
 ### Requisitos não Funcionais
 

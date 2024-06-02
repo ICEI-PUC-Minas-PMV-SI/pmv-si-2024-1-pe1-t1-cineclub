@@ -1,0 +1,26 @@
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 0.9375rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.9375rem;
+}
+
+.col {
+  flex: 1;
+  padding: 0 0.9375rem;
+}
+
+.col-1 {
+  flex: 0 0 8.3333%;
+  max-width: 8.3333%;
+}
+
+.col-10 {
+  flex: 0 0 83.3333%;
+  max-width: 83.3333%;
+}
