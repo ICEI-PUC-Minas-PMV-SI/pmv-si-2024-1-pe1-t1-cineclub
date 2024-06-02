@@ -1,10 +1,8 @@
-/* Main content must take all the available space */
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.main {
+  padding-top: 100px; /* Ajuste para compensar o header fixo */
 }
 
-.main-content {
-  flex: 1;
+.banner-section img {
+  width: 100%;
+  height: auto;
 }

@@ -1,25 +1,11 @@
 .footer {
   background-color: var(--black-color);
-  color: var(--white-color);
-  height: 7rem;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 .title,
 .subtitle {
-  margin-bottom: 0.5rem;
-  color: var(--white-color);
-  font-family: Roboto;
-
-  font-weight: 400;
-  word-wrap: break-word;
-}
-
-.title {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-}
-
-.subtitle {
-  font-size: 0.75rem;
-  line-height: 1.05rem;
+  margin: 0.5rem 0;
 }
