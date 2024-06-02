@@ -1,0 +1,76 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: var(--darker-color1);
+    z-index: 1000;
+  }
+  
+  .container {
+    height: 100%;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.43rem;
+  }
+  
+  .column {
+    padding: 0;
+  }
+  
+  /* LOGO */
+  
+  .logo-container {
+    width: 9.44rem;
+    height: 3.56rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.75rem;
+  }
+  
+  .logo-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Main content must take all the available space */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+
+.footer {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    height: 7rem;
+  }
+  
+  .title,
+  .subtitle {
+    margin-bottom: 0.5rem;
+    color: var(--white-color);
+    font-family: Roboto;
+  
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  
+  .subtitle {
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+  }
