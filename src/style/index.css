@@ -4,9 +4,9 @@
 @import './utils/fonts.css';
 
 /* PAGES */
+@import './utils/cadastro.css';
 
 /* ELEMENTS */
-@import './utils/grid.css';
 @import './utils/header.css';
 @import './utils/main.css';
 @import './utils/footer.css';
