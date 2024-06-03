@@ -1,86 +1,234 @@
-.header {
-    position: fixed;
-    top: 0;
+body, html {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: auto;
-    background-color: var(--darker-color1);
-    z-index: 1000;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
 }
 
 .container {
+    position: relative;
+    background: #141414;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+    width: 100%;
     height: 100%;
 }
 
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1.43rem;
+.background-overlay {
+    width: 1366px;
+    height: 997px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
 }
 
-.column {
-    padding: 0;
+.login-prompt {
+    width: 222px;
+    height: 18px;
+    position: absolute;
+    left: 737px;
+    top: 915px;
 }
 
-/* LOGO */
-
-.logo-container {
-    width: 9.44rem;
-    height: 3.56rem;
-    display: flex;
-    align-items: center;
-    margin-top: 1.75rem;
+.login-text {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
-.logo-container img {
-    width: 100%;
-    height: auto;
-}
-
-
-.page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.main-content {
-    flex: 1;
-}
-
-.cadastro {
-    color: #F0EFEF;
-    font-family: Roboto;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
+.login-message {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 16px;
-    /* 40% */
-    letter-spacing: -0.4px;
 }
 
-.footer {
-    background-color: var(--black-color);
-    color: var(--white-color);
-    height: 7rem;
+.login-link {
+    color: #AC72E7;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
 }
 
-.title,
-.subtitle {
-    margin-bottom: 0.5rem;
-    color: var(--white-color);
-    font-family: Roboto;
+.login-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 204px;
+    top: 0;
+}
 
+.icon-background {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background: #AC72E7;
+}
+
+.save-button {
+    width: 360px;
+    height: 56px;
+    position: absolute;
+    left: 667px;
+    top: 831px;
+}
+
+.button-background {
+    width: 360px;
+    height: 56px;
+    position: absolute;
+    background: #6100C2;
+    border-radius: 12px;
+}
+
+.button-text {
+    position: absolute;
+    left: 160px;
+    top: 15px;
+    color: #F2EFEF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.preferences {
+    width: 780px;
+    height: 221px;
+    position: absolute;
+    left: 458px;
+    top: 562px;
+}
+
+.preference-divider {
+    width: 778px;
+    height: 0;
+    position: absolute;
+    border: 1px solid #29292E;
+    top: 221px;
+}
+
+.preference-items {
+    width: 767px;
+    height: 121px;
+    position: absolute;
+    left: 13px;
+    top: 52px;
+}
+
+.preference-item {
+    width: 100%;
+    position: relative;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.genre {
+    position: absolute;
+    background: #131117;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #ACADB3;
+}
+
+.genre.romance { width: 72.86px; left: 115.20px; }
+.genre.terror { width: 55.14px; left: 214.64px; border: 1px solid #7C38C0; }
+.genre.thriller { width: 60.06px; left: 299.32px; border: 1px solid #7C38C0; }
+.genre.police { width: 92.55px; left: 0; border: 1px solid #7C38C0; }
+.genre.war { width: 113.23px; left: 0; }
+.genre.mystery { width: 67.94px; left: 167.38px; border: 1px solid #7C38C0; }
+.genre.musical { width: 67.94px; left: 289.47px; border: 1px solid #7C38C0; }
+.genre.sci-fi { width: 87.63px; left: 247.13px; border: 1px solid #7C38C0; }
+.genre.fantasy { width: 67.94px; left: 125.04px; border: 1px solid #7C38C0; }
+.genre.western { width: 70.89px; left: 0; }
+.genre.espionage { width: 95.51px; left: 238.27px; border: 1px solid #7C38C0; }
+.genre.drama { width: 58.09px; left: 138.83px; border: 1px solid #7C38C0; }
+.genre.documentary { width: 97.47px; left: 0; }
+.genre.dance { width: 69.91px; left: 319.01px; }
+.genre.comedy { width: 69.91px; left: 207.75px; }
+.genre.adventure { width: 69.91px; left: 98.83px; }
+.genre.action { width: 69.91px; left: 0; border: 1px solid #7C38C0; }
+
+.preferences-title {
+    width: 91px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #E4E4E7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.personal-info {
+    width: 777px;
+    height: 202px;
+    position: absolute;
+    left: 458px;
+    top: 298px;
+}
+
+.input-group {
+    width: 777px;
+    height: 48px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.input-background {
+    width: 777px;
+    height: 48px;
+    position: absolute;
+    background: #131117;
+    border-radius: 12px;
+}
+
+.input-text {
+    position: absolute;
+    left: 21px;
+    top: 11px;
+    color: #ACADB3;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.input-hint {
+    position: absolute;
+    left: 21px;
+    top: 26px;
+    color: #E4E4E7;
+    font-size: 12px;
     font-weight: 400;
-    word-wrap: break-word;
+    line-height: 18px;
 }
 
-.title {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+.personal-info-title {
+    width: 159px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #E4E4E7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
-.subtitle {
-    font-size: 0.75rem;
-    line-height: 1.05rem;
+.main-title {
+    width: 230px;
+    height: 36px;
+    position: absolute;
+    left: 458px;
+    top: 197px;
+    color: #F9F9FA;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
 }
