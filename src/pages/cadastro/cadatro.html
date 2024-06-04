@@ -1,73 +1,86 @@
-<div class="container">
-  <div class="background-overlay"></div>
-  <div class="login-prompt">
-    <div class="login-text">
-      <span class="login-message">Já possui uma conta? </span>
-      <span class="login-link">Faça Login</span>
-    </div>
-    <div class="login-icon">
-      <div class="icon-background"></div>
-    </div>
-  </div>
-  <div class="save-button">
-    <div class="button-background"></div>
-    <div class="button-text">Salvar</div>
-  </div>
-  <div class="preferences">
-    <div class="preference-divider"></div>
-    <div class="preference-items">
-      <div class="preference-item">
-        <div class="genre romance"><span>Romance</span></div>
-        <div class="genre terror"><span>Terror</span></div>
-        <div class="genre thriller"><span>Thriller</span></div>
-        <div class="genre police"><span>Filme Policial</span></div>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style/index.css" />
+  </head>
+
+  <body class="container-geral">
+  
+      
+        <div class="club">
+         <img src="/src/assets/images/img_logo.svg" alt=""> 
+        </div>
+    
+
+      <div class="right-section">
+
+        <header>
+          <div class="title-login">
+            <h2>Criar sua conta</h2>
+          </div>
+        </header>
+
+
+        <main>
+          <div class="title-personal-info">
+            <h1>informações pessoais</h1>
+            <div class="label-nome-completo">
+              <p>Nome completo</p>
+              <input class="rectangle-97" type="seu nome completo" />
+            <div>
+              <p>email</p>
+              <input class="rectangle-97" type="seu email" />
+            </div>
+            <div>
+              <p>senha</p>
+              <input class="rectangle-97" type="deve ter no minímo 8 caracteres" />
+            </div>
+            <div>
+              <p>confirmar sua senha</p>
+              <input class="rectangle-97" type="Deve ter no minímo 8 caracteres" />
+            </div>
+          </div>
+
+          <div>
+            <h1>Preferências</h1>
+            <div class="aventura">
+              <div class="container95">
+              <div class="rectangle-95"><p>Ação</p></div>
+              <div class="rectangle-95"><p>Aventura</p></div>
+              <div class="rectangle-95"><p>Comédia</p></div> 
+              <div class="rectangle-95"><p>Dança</p></div>
+              <div class="rectangle-95"><p>Documentário</p></div>
+              <div class="rectangle-95"><p>Drama</p></div>
+              <div class="rectangle-95"><p>Espionagem</p></div>
+              <div class="rectangle-95"><p>Faroeste</p></div>
+              <div class="rectangle-95"><p>Fantasia</p></div>
+              <div class="rectangle-95"><p>Ficção Científica</p></div>
+              <div class="rectangle-95"><p>Filmes</p></div>
+              <div class="rectangle-95"><p>Mistério</p></div>
+              <div class="rectangle-95"><p>Musical</p></div>
+              <div class="rectangle-95"><p>Policial</p></div>
+              <div class="rectangle-95"><p>Romance</p></div>
+              <div class="rectangle-95"><p>Terror</p></div>
+              <div class="rectangle-95"><p>Thriller</p></div>
+            </div>
+            </div>
+          </div>
+        </main>
+
+
+        <footer>
+          <div>
+            <button class="rectangle-99" type="submit">Salvar</button>
+            <div class="salvar">
+              <p>Já tem cadastro? <a href="#">Faça login aqui.</a></p>
+            </div>          
+          </div>
+        </footer>
       </div>
-      <div class="preference-item">
-        <div class="genre war"><span>Filmes de Guerra</span></div>
-        <div class="genre mystery"><span>Mistério</span></div>
-        <div class="genre musical"><span>Musical</span></div>
-      </div>
-      <div class="preference-item">
-        <div class="genre sci-fi"><span>Ficção Científica</span></div>
-        <div class="genre fantasy"><span>Fantasia</span></div>
-        <div class="genre western"><span>Faroeste</span></div>
-      </div>
-      <div class="preference-item">
-        <div class="genre espionage"><span>Espionagem</span></div>
-        <div class="genre drama"><span>Drama</span></div>
-        <div class="genre documentary"><span>Documentário</span></div>
-      </div>
-      <div class="preference-item">
-        <div class="genre dance"><span>Dança</span></div>
-        <div class="genre comedy"><span>Comédia</span></div>
-        <div class="genre adventure"><span>Aventura</span></div>
-        <div class="genre action"><span>Ação</span></div>
-      </div>
     </div>
-    <div class="preferences-title">Preferências</div>
-  </div>
-  <div class="personal-info">
-    <div class="input-group">
-      <div class="input-background"></div>
-      <div class="input-text">Confirme sua senha</div>
-      <div class="input-hint">Deve ter no mínimo 8 caracteres</div>
-    </div>
-    <div class="input-group">
-      <div class="input-background"></div>
-      <div class="input-text">Senha</div>
-      <div class="input-hint">Deve ter no mínimo 8 caracteres</div>
-    </div>
-    <div class="input-group">
-      <div class="input-background"></div>
-      <div class="input-text">Email</div>
-      <div class="input-hint">Seu e-mail</div>
-    </div>
-    <div class="input-group">
-      <div class="input-background"></div>
-      <div class="input-text">Nome completo</div>
-      <div class="input-hint">Seu nome completo</div>
-    </div>
-    <div class="personal-info-title">Informações Pessoais</div>
-  </div>
-  <div class="main-title">Criar sua conta</div>
-</div>
+    <script src="/src/js/cadastro.js"></script>
+  </body>
+</html>
