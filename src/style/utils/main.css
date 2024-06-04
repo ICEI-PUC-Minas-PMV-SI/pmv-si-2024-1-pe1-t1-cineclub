@@ -1,8 +1,104 @@
 .main {
-  padding-top: 100px; /* Ajuste para compensar o header fixo */
+  padding-top: 4.125rem; /* Ajuste para compensar o header fixo */
+}
+
+.banner-section {
+  position: relative;
 }
 
 .banner-section img {
   width: 100%;
   height: auto;
+}
+
+.banner-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); /* efeito sobre o banner */
+  z-index: 1;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 9.25rem;
+  left: calc(8.3333% + 3.75rem); /* 1 coluna + 60px */
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+}
+
+.banner-content {
+  color: var(--white-color);
+}
+
+.text-banner-ache {
+  color: var(--light-color4);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+}
+
+.text-banner-no-cine {
+  width: 42.5rem;
+  height: 9.75rem;
+  flex-shrink: 0;
+  color: var(--white-color);
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: -0, 057rem;
+  padding-top: 1rem;
+}
+
+.text-banner-navegue {
+  color: var(--light-color4);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  padding-top: 1.75rem;
+}
+
+.banner-button-container {
+  position: absolute;
+  top: calc(
+    11.125rem + 2rem + 14.375rem
+  ); /* Posição abaixo do overlay (178px) + espaço adicional (32px) + altura aproximada do overlay (230px) */
+  left: calc(
+    8.3333% + 3.75rem
+  ); /* Alinha horizontalmente com o início do texto no overlay (1 coluna + 60px) */
+}
+
+.button-cadastrar-banner {
+  width: 11.83rem;
+  height: 61.922px;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color-dark);
+  color: var(--light-color1);
+  font-size: 1rem;
+  font-weight: 700;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.button-cadastrar-banner:hover {
+  transform: scale(1.05);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.bottom-border {
+  height: 2rem;
+  background-color: var(--black-color);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
