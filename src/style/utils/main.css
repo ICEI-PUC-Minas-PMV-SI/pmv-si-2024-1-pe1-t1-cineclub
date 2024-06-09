@@ -1,8 +1,408 @@
 .main {
-  padding-top: 100px; /* Ajuste para compensar o header fixo */
+  padding-top: 2rem; /* Ajuste para compensar o header fixo */
+}
+
+.main-content {
+  background-color: var(--darker-color3);
+}
+
+/* Seção 1 - Banner Principal */
+.banner-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .banner-section img {
   width: 100%;
   height: auto;
+}
+
+.banner-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); /* efeito sobre o banner */
+  z-index: 1;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 6.25rem;
+  left: calc(8.3333% + 3.75rem); /* 1 coluna + 60px */
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+  z-index: 2;
+}
+
+.banner-content {
+  color: var(--white-color);
+}
+
+.text-banner-ache {
+  color: var(--light-color4);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+}
+
+.text-banner-no-cine {
+  width: 42.5rem;
+  height: 9.75rem;
+  flex-shrink: 0;
+  color: var(--white-color);
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: -0, 057rem;
+  padding-top: 1rem;
+}
+
+.text-banner-navegue {
+  color: var(--light-color4);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  padding-top: 1.75rem;
+}
+
+.banner-button-container {
+  position: absolute;
+  top: calc(
+    9.25rem + 1.25rem + 9.75rem + 1rem
+  ); /* Posiciona o botão abaixo do conteúdo do texto */
+  left: calc(8.3333% + 3.75rem); /* Alinha o botão com o conteúdo do texto */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  z-index: 3;
+}
+
+.button-cadastrar-banner {
+  width: 11.83rem;
+  height: 3.87rem;
+  margin: 1.5rem 0;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color-dark);
+  color: var(--light-color1);
+  font-size: 1rem;
+  font-weight: 700;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.button-cadastrar-banner:hover {
+  transform: scale(1.05);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.bottom-border {
+  width: 100%;
+  height: 2rem;
+  background-color: var(--black-color);
+  align-self: flex-end;
+}
+
+/* Section 2 - Seu Guia de Streaming */
+.guia-de-streaming-container {
+  margin-top: 2.5rem;
+}
+
+.guia-de-streaming-title {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.375rem;
+  text-transform: capitalize;
+}
+
+.guia-de-streaming-subtitle {
+  color: var(--light-color5);
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.406rem;
+  padding-top: 1rem;
+}
+
+.guia-de-streaming-imagens {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 5px;
+  background: rgba(102, 102, 102, 0.3);
+  overflow: hidden;
+  border: 1px solid #595858;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+  border: 0.5px solid var(--light-color4);
+  opacity: 1;
+}
+
+.image-container img {
+  height: 100%;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: background 0.3s ease;
+}
+
+.image-container:hover .image-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.image-description {
+  color: var(--white-color);
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.625rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-container:hover .image-description {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Seção 3 - Veja os Top 5 */
+.top-5 {
+  text-align: center;
+}
+
+.top-5-icon-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.top-5-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.paragraph2 {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.375rem;
+  margin-bottom: 1.125rem;
+}
+
+.top-5-cartazes {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.cartaz-guardioes,
+.cartaz-hobbit .cartaz-harry {
+  align-self: flex-start;
+}
+
+.cartaz-sherlock,
+.cartaz-dark {
+  align-self: flex-end;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.cartaz-image {
+  border: 1px solid #373737;
+  width: 100%;
+}
+
+/* Seção - Tudo em um único lugar */
+
+.detalhes-guia-de-streaming .cards-container {
+  padding: 0 1rem;
+}
+
+.detalhes-guia-de-streaming .card-detalhes-title,
+.detalhes-guia-de-streaming .card-detalhes-subtitle {
+  text-align: center;
+  word-wrap: break-word;
+  padding: 0 1rem;
+  margin-bottom: 1rem; /* Default margin, will override below for subtitle */
+}
+
+.detalhes-guia-de-streaming .card-detalhes-title {
+  color: var(--white-color);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.215rem;
+}
+
+.detalhes-guia-de-streaming .card-detalhes-subtitle {
+  color: var(--light-color5);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.406rem;
+  margin-bottom: 2.5rem;
+}
+
+.detalhes-guia-de-streaming .cards-container-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 100%;
+  justify-content: center;
+  width: 56.75rem;
+  margin-bottom: 5.75rem;
+}
+
+.detalhes-guia-de-streaming .card-guia-completo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30rem;
+  background: linear-gradient(
+    180deg,
+    var(--light-color5) 3%,
+    var(--darker-color2) 62%
+  );
+  max-width: 18.75rem;
+  min-height: cal(
+    1.25rem * 5 + 1.75rem + 1.25rem + 1rem
+  ); /* Altura mínima de 5 linhas: soma das alturas de cinco linhas de texto mais os valores das margens. */
+  border-radius: 8px;
+  border: 1px var(--darker-color4) solid;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.detalhes-guia-de-streaming .card-guia-completo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.detalhes-guia-de-streaming .card-guia-completo:hover::after {
+  opacity: 0.5;
+}
+
+.detalhes-guia-de-streaming .card-guia-completo img {
+  border-radius: 0.5rem;
+}
+
+.detalhes-guia-de-streaming .card-title-seu-guia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 1.75rem 0 1.25rem;
+  color: var(--white-color);
+  padding: 0 0.75rem;
+}
+
+.detalhes-guia-de-streaming .card-content-info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: start;
+  text-align: justify;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+  margin-top: auto;
+  margin-bottom: 1.687rem;
+  color: var(--white-color);
+  padding: 0 0.75rem;
+}
+
+.detalhes-guia-de-streaming .card-link-container {
+  position: relative;
+  text-align: left;
+  margin-left: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.detalhes-guia-de-streaming .card-link {
+  position: relative;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--info-color);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.detalhes-guia-de-streaming .card-link:hover {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 1200px) {
+  .detalhes-guia-de-streaming .cards-container .cards-container-details {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* ainda 3 colunas em telas menores */
+  }
+}
+
+@media (max-width: 968px) {
+  .detalhes-guia-de-streaming .cards-container .cards-container-details {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .detalhes-guia-de-streaming .cards-container .cards-container-details {
+    grid-template-columns: 1fr; /* 1 coluna em telas pequenas */
+  }
 }
