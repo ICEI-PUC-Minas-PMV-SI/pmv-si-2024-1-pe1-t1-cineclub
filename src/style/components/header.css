@@ -53,6 +53,7 @@
 .buttons-container {
   display: flex;
   gap: 0.5rem;
+  z-index: 9999; /* z-index alto para garantir que os botões estejam an parte superior*/
 }
 
 .buttons-container .button-login,
@@ -67,6 +68,9 @@
 }
 
 .button-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 7.029rem;
   height: 1.812rem;
   border-radius: 0.5rem;
