@@ -1,12 +1,16 @@
 /* UTILS */
-@import './utils/normalize.css';
 @import './utils/colors.css';
+@import './utils/normalize.css';
 @import './utils/fonts.css';
 
 /* PAGES */
+/* Página Login */
+@import './components/login.css';
 
-/* ELEMENTS */
-@import './utils/grid.css';
-@import './utils/header.css';
-@import './utils/main.css';
-@import './utils/footer.css';
+/* Página Home (index.html) */
+@import './components/main.css';
+
+/* COMPONENTS */
+@import './components/grid.css';
+@import './components/header.css';
+@import './components/footer.css';
