@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Cine Club</title>
 
     <!-- Importando a fonte Roboto do google fonts -->
@@ -24,10 +23,299 @@
     <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
-    <!-- Contêiner para a Home Page -->
-    <div id="home-container"></div>
+    <!-- Header -->
+    <header class="header" id="header"></header>
 
-    <!-- Importando o script JavaScript -->
+    <!-- Main -->
+    <div class="main page-container">
+      <main class="main-content">
+        <!-- Seção banner principal -->
+        <section class="banner-section">
+          <img
+            src="../../assets/images/img_banner_principal.svg"
+            alt="banner principal"
+          />
+          <div class="banner-overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col col-10">
+                  <div class="banner-content">
+                    <p class="text-banner-ache">
+                      Ache o filme perfeito para assistir!
+                    </p>
+                    <p class="text-banner-no-cine">
+                      No CineClub você vai achar seus <br />
+                      filmes e séries favoritos de forma simples e rápida!
+                    </p>
+                    <p class="text-banner-navegue">
+                      Navegue pelo nosso guia e descubra que filmes e séries
+                      estão chegando!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-button-container">
+            <button class="button-cadastrar-banner">Cadastre-se</button>
+          </div>
+          <div class="bottom-border"></div>
+        </section>
+
+        <!-- Seção Guia de Streaming -->
+        <section class="guia-de-streaming">
+          <div class="container">
+            <div class="row">
+              <div class="col col-1"></div>
+              <div class="col col-10">
+                <div class="guia-de-streaming-container">
+                  <p class="guia-de-streaming-title">
+                    Seu guia de Streaming Esta Aqui
+                  </p>
+                  <p class="guia-de-streaming-subtitle">
+                    Descubra como ver conteúdos novos e populares sem perder
+                    tempo
+                  </p>
+                  <div class="guia-de-streaming-imagens">
+                    <!-- Container Imagem 1 -->
+                    <div class="image-container">
+                      <img
+                        src="../../assets/images/img_seu_guia_cadastrar.svg"
+                        alt="Mulher com blusa de lã amarela digitando em um notebook"
+                      />
+                      <div class="image-overlay">
+                        <div class="image-overlay">
+                          <p class="image-description">Faça seu cadastro</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Container Imagem 2 -->
+                    <div class="image-container">
+                      <img
+                        src="../../assets/images/img_seu_guia_acesse.svg"
+                        alt="Mãos digitando em um notebook na tela aparece um streaming em execução"
+                      />
+                      <div class="image-overlay">
+                        <div class="image-overlay">
+                          <p class="image-description">
+                            Acesso o guia completo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Container Imagem 3 -->
+                    <div class="image-container">
+                      <img
+                        src="../../assets/images/img_seu_guia_aproveite.svg"
+                        alt="Mãos digitando em um notebook na tela aparece um streaming em execução"
+                      />
+                      <div class="image-overlay">
+                        <div class="image-overlay">
+                          <p class="image-description">Aproveite</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-1"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção Top 5 -->
+        <section class="top-5">
+          <div class="container">
+            <div class="row">
+              <div class="col col-1"></div>
+              <div class="col col-10">
+                <div class="top-5-container">
+                  <div class="top-5-subtitle">
+                    <img
+                      class="top-5-icon-logo"
+                      src="../../assets/icons/icon_mini_logo.svg"
+                      alt="icone de um rolo de filme na cor roxa"
+                    />
+                    <p>Veja os Top 5 Assistidos</p>
+                  </div>
+                  <p class="paragraph2">
+                    Descubra Quais são Os Filmes e Séries Populares e Saiba Onde
+                    ver
+                  </p>
+                  <div class="top-5-cartazes">
+                    <div class="cartaz-guardioes">
+                      <img
+                        class="cartaz-image"
+                        src="../../assets/images/img_top5_filme_guardioes.svg"
+                        alt="cartaz do filme guardioes da galaxia"
+                      />
+                    </div>
+                    <div class="cartaz-sherlock">
+                      <img
+                        src="../../assets/images/img_top5_filme_sherlock.svg"
+                        alt="cartaz da série sherlock holmes"
+                      />
+                    </div>
+                    <div class="cartaz-hobbit">
+                      <img
+                        src="../../assets/images/img_top5_filme_the_Hobbit.svg"
+                        alt="cartaz do filme o hobbit"
+                      />
+                    </div>
+                    <div class="cartaz-dark">
+                      <img
+                        src="../../assets/images/img_top5_serie_dark.svg"
+                        alt="cartaz da série dark"
+                      />
+                    </div>
+                    <div class="cartaz-harry">
+                      <img
+                        src="../../assets/images/img_top5_filme_harry_potter.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-1"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção Tudo em um lugar -->
+        <section class="detalhes-guia-de-streaming">
+          <div class="container">
+            <div class="row">
+              <div class="col col-1"></div>
+              <div class="col col-10">
+                <div class="cards-container">
+                  <p class="card-detalhes-title">Tudo em um único lugar</p>
+                  <p class="card-detalhes-subtitle">
+                    Descubra como ver conteúdos novos e populares sem perder
+                    tempo
+                  </p>
+                  <div class="cards-container-details">
+                    <!-- Card 1 -->
+                    <div class="card-guia-completo">
+                      <img
+                        class="card-image"
+                        src="../../assets/images/img_unico_lugar_seu_guia.svg"
+                        alt="tela de tv mostrando uma lista de vários streamings"
+                      />
+                      <p class="card-title-seu-guia">
+                        SEU GUIA COMPLETO DE <br />STREAMING
+                      </p>
+                      <p class="card-content-info">
+                        Obtenha recomendações pessoais para todos os serviços de
+                        streaming. Mostraremos onde ver filmes, séries.
+                      </p>
+                      <div class="card-link-container">
+                        <a class="card-link" href="#">ACESSE</a>
+                      </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card-guia-completo">
+                      <img
+                        class="card-image"
+                        src="../../assets/images/img_unico_lugar_pesquisa.svg"
+                        alt="tela de tv mostrando uma lista de vários streamings"
+                      />
+                      <p class="card-title-seu-guia">
+                        TUDO EM UMA ÚNICA <br />
+                        PESQUISA
+                      </p>
+                      <p class="card-content-info">
+                        Deixe de saltar entre serviços de streaming para saber
+                        se um filme ou série esta disponível. Aqui tudo esta
+                        acessível em uma única busca.
+                      </p>
+                      <div class="card-link-container">
+                        <a class="card-link" href="#">ACESSE</a>
+                      </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card-guia-completo">
+                      <img
+                        class="card-image"
+                        src="../../assets/images/img_unico_lugar_combine.svg"
+                        alt="tela de tv mostrando uma lista de vários streamings"
+                      />
+                      <p class="card-title-seu-guia">COMBINE SUAS WATCHLISTS</p>
+                      <p class="card-content-info">
+                        Crie uma única watchlist com todos os serviços de
+                        streaming, filmes, séries e eventos que você deseja
+                        assistir em todos os seus dispositivos.
+                      </p>
+                      <div class="card-link-container">
+                        <a class="card-link" href="#">ACESSE</a>
+                      </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card-guia-completo">
+                      <img
+                        class="card-image"
+                        src="../../assets/images/img_unico_lugar_saiba.svg"
+                        alt="tela de tv mostrando uma lista de vários streamings"
+                      />
+                      <p class="card-title-seu-guia">
+                        SAIBA O QUE SERÁ <br />LANÇADO
+                      </p>
+                      <p class="card-content-info">
+                        Saiba com antecedência quais filmes, séries e eventos
+                        serão lançados, esteja sempre atualizado.
+                      </p>
+                      <div class="card-link-container">
+                        <a class="card-link" href="#">ACESSE</a>
+                      </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="card-guia-completo">
+                      <img
+                        class="card-image"
+                        src="../../assets/images/img_unico_lugar_avalie.svg"
+                        alt="tela de tv mostrando uma lista de vários streamings"
+                      />
+                      <p class="card-title-seu-guia">DEIXE SUA AVALIAÇÃO</p>
+                      <p class="card-content-info">
+                        Avalie suas séries, filmes e eventos preferidos e
+                        compartilhe suas preferências em suas redes sociais
+                      </p>
+                      <div class="card-link-container">
+                        <a class="card-link" href="#">ACESSE</a>
+                      </div>
+                    </div>
+                    <div class="card-guia-completo">
+                      <img
+                        class="card-image"
+                        src="../../assets/images/img_unico_lugar_premiacoes.svg"
+                        alt="tela de tv mostrando uma lista de vários streamings"
+                      />
+                      <p class="card-title-seu-guia">PREMIAÇÕES DO CINEMA</p>
+                      <p class="card-content-info">
+                        Veja a lista de indicações para os eventos de premiação
+                        de cinema como o Oscar, Festival de Cannes, Bafta entre
+                        outros.
+                      </p>
+                      <div class="card-link-container">
+                        <a class="card-link" href="#">ACESSE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-1"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer"></footer>
+
+    <!-- Script -->
     <script src="./js/homePage.js"></script>
   </body>
 </html>
