@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Gabriela Chaves",
+      "email": "gaby@email.com",
+      "password": "base64"
+    }
+  ],
+  "preferences": [
+    {
+      "id": "1",
+      "userId": "1",
+      "tags": ["terror", "comedia"]
+    }
+  ],
+  "movies": []
+}
