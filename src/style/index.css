@@ -6,6 +6,7 @@
 /* PAGES */
 /* Página Login */
 @import './components/login.css';
+@import './components/cadastro.css';
 
 /* Página Home (index.html) */
 @import './components/main.css';
