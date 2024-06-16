@@ -1,0 +1,165 @@
+.container-geral {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+
+.cadastro-left-section{
+padding: 5px;
+width: 18%;
+height: 50%;
+overflow: hidden;
+display: flex;
+position: relative;
+}
+
+.cagastro-left-section img {
+
+width: 1366px;
+height: 997px;
+
+} 
+
+.cadastro-logo{
+margin: 10%;
+margin-left: 15%;
+position: absolute;
+flex-direction: column;
+width: 133px;
+height: 29px;
+flex-shrink: 0;
+}
+
+
+.right-section {
+ width: 82%;
+ height: 100%;
+ margin-left: 10%;
+ padding:0px;
+ position: relative;
+}
+
+
+.cadastro-title-login {
+  color: #F0EFEF;
+  font-family: Roboto;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 16px;  
+}
+
+.title-personal-info{
+ color: #F0EFEF;
+ font-family: Roboto;
+ font-size: 60%;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 16px;
+ letter-spacing: -0.4px;
+ }
+
+.label-nome-completo {
+color: #FFF;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: -0.266px;
+width: 99.829px;
+    
+}
+.rectangle-97{
+width: 900px;
+height: 30px;
+flex-shrink: 0;
+background: #131117;
+border-radius: 8px;
+border: 1px solid #7C38C0;
+}
+
+.
+.rectangle-95{
+    
+width: 150px;
+height: 40px;
+flex-shrink: 0;
+background: #131117;
+border-radius: 25px;
+border: 1px solid #7C38C0;
+}
+
+/* Estilo do contêiner que segura os chips */
+.container95 {
+display: flex;
+flex-wrap: wrap; 
+gap: 10%; /* Espaçamento entre os chips */
+padding: 20px; /* Espaçamento interno do contêiner */
+max-width: 800px; /* Largura máxima do contêiner */
+border-radius: 15px; /* Bordas arredondadas no contêiner */
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos chips */
+.chip {
+  background-color: #131117; /* Cor de fundo do chip */
+  border: 1px solid #6100C2;
+  border-radius: 25px; /* Borda arredondada */
+  padding: 10px 20px; /* Espaçamento interno */
+  color: white; /* Cor do texto */
+  font-size: 10px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor de mãozinha */
+  display: flex;
+  align-items: center;
+  transition: background-color 0.10s; /* Transição suave ao passar o mouse */
+}
+
+/* Estilo ao passar o mouse por cima do chip */
+.chip:hover {
+  background-color: #1c1e20; /* Cor de fundo mais escura */
+  cursor: pointer;
+
+}
+
+/* Estilo do texto dentro do chip */
+.chip p {
+  margin: 0; /* Remove margens internas do parágrafo */
+  padding: 0; /* Remove espaçamento interno */
+}
+
+.chip.active {
+  background-color: ;
+  color: white;
+}
+
+
+.container95 {
+  display: flex;
+  gap: 500px;
+  gap: 10px 40px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 30px;
+  flex-flow: wrap;  
+}
+
+.cadastro-salvar {
+color: #F2EFEF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: -0.16px;
+line-height: 24px;
+letter-spacing: -0.16px;
+margin-left: 300px;
+}
+
+.cadastro-rectangle-footer {
+width: 260px;
+height: 46px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #6100C2;
+margin-left: 250px;
+}
