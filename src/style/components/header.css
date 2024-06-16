@@ -88,6 +88,9 @@
 }
 
 .header .buttons-container .button-cadastrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 7.029rem;
   height: 1.812rem;
   border-radius: 0.5rem;

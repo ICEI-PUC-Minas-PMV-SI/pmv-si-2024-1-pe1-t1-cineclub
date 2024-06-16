@@ -87,8 +87,10 @@
 }
 
 .button-cadastrar-banner {
+  display: inline-block;
   width: 11.83rem;
   height: 3.87rem;
+  line-height: 3.87rem;
   margin: 1.5rem 0;
   flex-shrink: 0;
   border-radius: 0.5rem;
@@ -96,7 +98,9 @@
   color: var(--light-color1);
   font-size: 1rem;
   font-weight: 700;
-  transform: scale(1.05);
+  text-align: center;
+  text-decoration: none;
+  transform: scale(1);
   transition: transform 0.3s ease;
 }
 
