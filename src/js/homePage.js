@@ -1,3 +1,5 @@
+// Carrega e insere o conteúdo do header de um arquivo HTML externo após o carregamento da página
+
 document.addEventListener('DOMContentLoaded', function () {
   fetch('components/header.html')
     .then((response) => response.text())
@@ -12,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Carrega e insere o conteúdo do footer de um arquivo HTML externo após o carregamento da página
 document.addEventListener('DOMContentLoaded', function () {
   fetch('components/footer.html')
     .then((response) => response.text())
