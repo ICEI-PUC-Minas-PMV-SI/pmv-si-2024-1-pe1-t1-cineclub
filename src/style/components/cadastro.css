@@ -1,4 +1,4 @@
-.cadastro-content {
+.register-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,12 +7,12 @@
   background-color: #141414;
 }
 
-.cadastro-horizontal-align {
+.register-horizontal-align {
   display: flex;
   width: 100%;
 }
 
-.cadastro-left-section {
+.register-left-section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
   background-size: cover; /* Cobrir todo o espaço, mesmo quando repetida */
 }
 
-.cadastro-overlay {
+.register-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -36,14 +36,14 @@
   pointer-events: none; /* Permite clicar através do overlay */
 }
 
-.cadastro-left-section img {
+.register-left-section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: left;
 }
 
-.cadastro-logo {
+.register-logo {
   position: absolute;
   top: 2rem;
   left: 30%;
@@ -51,12 +51,12 @@
   height: auto;
 }
 
-.cadastro-logo img {
+.register-logo img {
   width: 100%;
   height: auto;
 }
 
-.cadastro-wrapper {
+.register-wrapper {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@
   background-color: #050507;
 }
 
-.cadastro-wrapper h1 {
+.register-wrapper h1 {
   color: #e2e2e2;
   font-size: 2.5rem;
   font-weight: 700;
@@ -77,18 +77,18 @@
   margin-bottom: 2rem;
 }
 
-.cadastro-inputs {
+.register-inputs {
   width: 100%;
   margin-bottom: 40px;
 }
 
-.cadastro-inputs .subtitle {
+.register-inputs .subtitle {
   display: flex;
   align-items: center;
   padding-bottom: 2rem;
 }
 
-.cadastro-inputs .subtitle::before {
+.register-inputs .subtitle::before {
   content: '1'; /* Número dentro do círculo */
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@
   margin-right: 0.5rem; /* Espaçamento entre o círculo e o texto */
 }
 
-.cadastro-inputs h2 {
+.register-inputs h2 {
   color: #f0efef;
   font-size: 1.125rem;
   font-weight: 700;
@@ -113,7 +113,7 @@
   margin: 0;
 }
 
-.cadastro-inputs label {
+.register-inputs label {
   display: block;
   color: #ffffff;
   font-size: 0.85rem;
@@ -123,7 +123,7 @@
   letter-spacing: -0.266px;
 }
 
-.cadastro-inputs input {
+.register-inputs input {
   width: 70%;
   padding: 0.75rem;
   padding-right: 2.5rem; /* Espaço para o ícone */
@@ -134,7 +134,7 @@
   color: var(--white-color) !important;
 }
 
-.cadastro-inputs input::placeholder {
+.register-inputs input::placeholder {
   color: #acadb3;
   font-size: 16px;
   font-weight: 500;
@@ -142,7 +142,7 @@
   letter-spacing: -0.304px;
 }
 
-.cadastro-inputs .icon {
+.register-inputs .icon {
   position: absolute;
   right: 0.75rem;
   top: 50%;
@@ -150,19 +150,19 @@
   pointer-events: none; /* Evita interferência no clique do input */
 }
 
-.cadastro-inputs .cadastro-group,
-.cadastro-inputs .input-group {
+.register-inputs .register-group,
+.register-inputs .input-group {
   margin-bottom: 0.875rem; /* Espaço entre os inputs */
 }
 
 /* Remover margem inferior do último input */
-.cadastro-inputs .cadastro-group:last-child,
-.cadastro-inputs .input-group:last-child {
+.register-inputs .register-group:last-child,
+.register-inputs .input-group:last-child {
   margin-bottom: 0;
 }
 
-.cadastro-inputs .cadastro:focus,
-.cadastro-inputs input:hover {
+.register-inputs .register:focus,
+.caregisterdastro-inputs input:hover {
   border: 1px solid var(--primary-color-variant1);
   outline: none;
   color: var(--white-color) !important;
@@ -186,20 +186,20 @@
   height: 24px;
 }
 
-.cadastro-preferences {
+.register-preferences {
   width: 100%;
-  margin-top: 40px; /* Espaço de 40px entre cadastro-inputs e cadastro-preferencias */
+  margin-top: 40px; /* Espaço de 40px entre register-inputs e register-preferencias */
   margin-bottom: 80px; /* Espaço entre as preferências e o footer */
 }
 
-.cadastro-preferences .subtitle {
+.register-preferences .subtitle {
   position: relative;
   display: flex;
   align-items: center;
   padding-bottom: 2rem;
 }
 
-.cadastro-preferences .subtitle::before {
+.register-preferences .subtitle::before {
   content: '2'; /* Número dentro do círculo */
   display: flex;
   align-items: center;
@@ -215,7 +215,7 @@
   margin-right: 0.5rem; /* Espaçamento entre o círculo e o texto */
 }
 
-.cadastro-preferences .subtitle h2 {
+.register-preferences .subtitle h2 {
   color: #f0efef;
   font-size: 1.125rem;
   font-weight: 700;
@@ -224,11 +224,11 @@
   margin: 0;
 }
 
-.cadastro-buttons-group {
+.register-buttons-group {
   margin-top: 0.5rem;
 }
 
-.cadastro-chip-group {
+.register-chip-group {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 10px;
@@ -248,7 +248,13 @@
   white-space: nowrap;
 }
 
-.cadastro-footer {
+.chip.active {
+  background-color: #6100c2; /* Cor de fundo quando ativo */
+  color: #ffffff; /* Cor do texto quando ativo */
+  border-color: #6100c2; /* Cor da borda quando ativo */
+}
+
+.register-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,14 +263,14 @@
   padding: 3rem 7.3795rem; /* Adiciona o padding desejado */
 }
 
-.cadastro-footer a {
+.register-footer a {
   color: #ffffff;
   text-decoration: none;
   margin-bottom: 1rem;
   display: inline-block;
 }
 
-.cadastro-footer .cadastro-btn {
+.register-footer .register-btn {
   width: 360px;
   height: 56px;
   background-color: var(--primary-color);
@@ -277,7 +283,7 @@
   margin-bottom: 1rem; /* Espaço abaixo do botão */
 }
 
-.cadastro-footer .cadastro-signup-text {
+.register-footer .register-signup-text {
   color: #ffffff;
   margin-top: 1rem;
   display: block;
@@ -287,11 +293,11 @@
   letter-spacing: -0.14px;
 }
 
-.cadastro-footer .cadastro-signup-link {
+.register-footer .register-signup-link {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.75rem;
   font-weight: 800;
-  line-height: 16px;
+  line-height: 1rem;
   letter-spacing: -0.14px;
 }
