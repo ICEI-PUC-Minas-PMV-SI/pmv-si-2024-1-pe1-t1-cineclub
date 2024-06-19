@@ -5,13 +5,22 @@
       "name": "Gabriela Chaves",
       "email": "gaby@email.com",
       "password": "base64"
+    },
+    {
+      "id": "6d25",
+      "nome": "lucas",
+      "email": "lucas@email.com",
+      "senha": "1234"
     }
   ],
   "preferences": [
     {
       "id": "1",
       "userId": "1",
-      "tags": ["terror", "comedia"]
+      "tags": [
+        "terror",
+        "comedia"
+      ]
     }
   ],
   "movies": []
