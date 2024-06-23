@@ -1,0 +1,303 @@
+.register-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh; /* Muda para min-height para permitir expansão */
+  background-color: #141414;
+}
+
+.register-horizontal-align {
+  display: flex;
+  width: 100%;
+}
+
+.register-left-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #141414;
+  width: 30%;
+  height: 100vh; /* Mantém a altura fixa para o banner */
+  background-image: url('../../assets/images/img_banner_principal.svg');
+  background-repeat: repeat-y; /* Repete a imagem verticalmente */
+  background-size: cover; /* Cobrir todo o espaço, mesmo quando repetida */
+}
+
+.register-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: none; /* Permite clicar através do overlay */
+}
+
+.register-left-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.register-logo {
+  position: absolute;
+  top: 2rem;
+  left: 30%;
+  width: 9rem;
+  height: auto;
+}
+
+.register-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.register-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha os itens ao topo */
+  justify-content: center;
+  width: 70%;
+  padding: 0 7.73935rem; /* Adiciona padding para espaçamento interno */
+  flex-direction: column;
+  background-color: #050507;
+}
+
+.register-wrapper h1 {
+  color: #e2e2e2;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.025rem;
+  margin-bottom: 2rem;
+}
+
+.register-inputs {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.register-inputs .subtitle {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.register-inputs .subtitle::before {
+  content: '1'; /* Número dentro do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.125rem; /* Mesma altura da fonte do h2 */
+  height: 1.125rem; /* Mesma altura da fonte do h2 */
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #141414;
+  font-size: 1.125rem; /* Mesma altura da fonte do h2 */
+  font-weight: 700;
+  line-height: 1rem;
+  margin-right: 0.5rem; /* Espaçamento entre o círculo e o texto */
+}
+
+.register-inputs h2 {
+  color: #f0efef;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: -0.18px;
+  margin: 0;
+}
+
+.register-inputs label {
+  display: block;
+  color: #ffffff;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.266px;
+}
+
+.register-inputs input {
+  width: 70%;
+  padding: 0.75rem;
+  padding-right: 2.5rem; /* Espaço para o ícone */
+  border: none;
+  font-size: 1rem;
+  border-radius: 12px;
+  background: var(--darker-color2);
+  color: var(--white-color) !important;
+}
+
+.register-inputs input::placeholder {
+  color: #acadb3;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.304px;
+}
+
+.register-inputs .icon {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Evita interferência no clique do input */
+}
+
+.register-inputs .register-group,
+.register-inputs .input-group {
+  margin-bottom: 0.875rem; /* Espaço entre os inputs */
+}
+
+/* Remover margem inferior do último input */
+.register-inputs .register-group:last-child,
+.register-inputs .input-group:last-child {
+  margin-bottom: 0;
+}
+
+.register-inputs .register:focus,
+.caregisterdastro-inputs input:hover {
+  border: 1px solid var(--primary-color-variant1);
+  outline: none;
+  color: var(--white-color) !important;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 1.5rem; /* Espaçamento entre os grupos de entrada */
+}
+
+.input-icon-wrapper {
+  position: relative;
+}
+
+.input-icon-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  right: 16px; /* Espaço à direita do input para o ícone */
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.register-preferences {
+  width: 100%;
+  margin-top: 40px; /* Espaço de 40px entre register-inputs e register-preferencias */
+  margin-bottom: 80px; /* Espaço entre as preferências e o footer */
+}
+
+.register-preferences .subtitle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.register-preferences .subtitle::before {
+  content: '2'; /* Número dentro do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.125rem; /* Mesma altura da fonte do h2 */
+  height: 1.125rem; /* Mesma altura da fonte do h2 */
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #141414;
+  font-size: 1.125rem; /* Mesma altura da fonte do h2 */
+  font-weight: 700;
+  line-height: 1rem;
+  margin-right: 0.5rem; /* Espaçamento entre o círculo e o texto */
+}
+
+.register-preferences .subtitle h2 {
+  color: #f0efef;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: -0.18px;
+  margin: 0;
+}
+
+.register-buttons-group {
+  margin-top: 0.5rem;
+}
+
+.register-chip-group {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.chip {
+  background-color: #131117; /* Cor de fundo do chip */
+  border: 1px solid #6100c2;
+  border-radius: 18px;
+  padding: 4px 10px; /* Espaçamento interno */
+  color: white; /* Cor do texto */
+  font-size: 12px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor de mãozinha */
+  display: flex;
+  align-items: center;
+  transition: background-color 0.1s; /* Transição suave ao passar o mouse */
+  white-space: nowrap;
+}
+
+.chip.active {
+  background-color: #6100c2; /* Cor de fundo quando ativo */
+  color: #ffffff; /* Cor do texto quando ativo */
+  border-color: #6100c2; /* Cor da borda quando ativo */
+}
+
+.register-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Mesma largura do cadastro-wrapper */
+  background-color: #050507; /* Mantém a cor de fundo */
+  padding: 3rem 7.3795rem; /* Adiciona o padding desejado */
+}
+
+.register-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.register-footer .register-btn {
+  width: 360px;
+  height: 56px;
+  background-color: var(--primary-color);
+  border: none;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 1rem; /* Espaço abaixo do botão */
+}
+
+.register-footer .register-signup-text {
+  color: #ffffff;
+  margin-top: 1rem;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.14px;
+}
+
+.register-footer .register-signup-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1rem;
+  letter-spacing: -0.14px;
+}
