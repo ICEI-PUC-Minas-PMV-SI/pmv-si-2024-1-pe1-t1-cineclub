@@ -49,48 +49,52 @@
         <section class="login-wrapper">
           <h1>Login</h1>
 
-          <div class="login-inputs">
-            <div class="input-group">
-              <label for="email"> Email</label>
-              <div class="input-icon-wrapper">
+          <form id="loginForm" class="login-form">
+            <div class="login-inputs">
+              <div class="input-group">
+                <label for="email"> Email</label>
+                <div class="input-icon-wrapper">
+                  <input
+                    class="email"
+                    id="email"
+                    type="text"
+                    placeholder="Digite seu email"
+                    required
+                  />
+                  <img
+                    class="icon"
+                    src="../assets/icons/icon_mail.svg"
+                    alt="icone email"
+                  />
+                </div>
+              </div>
+
+              <div class="login-input-group">
+                <label for="password">Senha</label>
                 <input
-                  class="email"
-                  id="email"
-                  type="text"
-                  placeholder="Digite seu email"
+                  class="password"
+                  id="password"
+                  type="password"
+                  placeholder="Digite sua senha"
                   required
-                />
-                <img
-                  class="icon"
-                  src="../assets/icons/icon_mail.svg"
-                  alt="icone email"
                 />
               </div>
             </div>
 
-            <div class="input-group">
-              <label for="password">Senha</label>
-              <input
-                class="password"
-                id="password"
-                type="password"
-                placeholder="Digite sua senha"
-                required
-              />
-            </div>
-          </div>
-
-          <a class="forgot-password" href="#">Esqueci a senha</a>
-          <button type="submit" class="login-btn">Logar</button>
-          <span class="signup-text"
-            >Não tem uma conta?
-            <a class="signup-link" href="../pages/register.html"
-              >Inscreva-se</a
-            ></span
-          >
+            <a class="forgot-password" href="#">Esqueci a senha</a>
+            <button type="submit" class="login-btn">Logar</button>
+            <span class="signup-text"
+              >Não tem uma conta?
+              <a class="signup-link" href="../pages/register.html"
+                >Inscreva-se</a
+              ></span
+            >
+          </form>
         </section>
       </div>
     </main>
+
+    <div class="toast" id="toast"></div>
 
     <script src="../js/login.js"></script>
   </body>
