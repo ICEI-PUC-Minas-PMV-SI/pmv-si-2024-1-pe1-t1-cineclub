@@ -1,32 +1,18 @@
 .register-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  min-height: 100vh; /* Muda para min-height para permitir expansão */
-  background-color: #141414;
-}
-
-.register-horizontal-align {
-  display: flex;
   width: 100%;
+  background-color: #141414;
 }
 
 .register-left-section {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #141414;
   width: 30%;
-  height: 100vh; /* Mantém a altura fixa para o banner */
   background-image: url('../../assets/images/img_banner_principal.svg');
-  background-repeat: repeat-y; /* Repete a imagem verticalmente */
-  background-size: cover; /* Cobrir todo o espaço, mesmo quando repetida */
+  background-repeat: repeat-y;
+  background-size: auto;
 }
 
-.register-overlay {
+.register-left-section .register-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -37,6 +23,7 @@
 }
 
 .register-left-section img {
+  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -57,35 +44,33 @@
 }
 
 .register-wrapper {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center; /* Alinha os itens ao topo */
   justify-content: center;
   width: 70%;
-  padding: 0 7.73935rem; /* Adiciona padding para espaçamento interno */
-  flex-direction: column;
+  padding: 0 7rem; /* Adiciona padding para espaçamento interno */
   background-color: #050507;
 }
 
 .register-wrapper h1 {
+  width: 100%;
+  text-align: left;
   color: #e2e2e2;
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.025rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .register-inputs {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 3rem;
 }
 
 .register-inputs .subtitle {
   display: flex;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .register-inputs .subtitle::before {
@@ -93,11 +78,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1.125rem; /* Mesma altura da fonte do h2 */
-  height: 1.125rem; /* Mesma altura da fonte do h2 */
+  width: 1.75rem; /* Mesma altura da fonte do h2 */
+  height: 1.75rem; /* Mesma altura da fonte do h2 */
   border-radius: 50%;
-  background-color: #ffffff;
-  color: #141414;
+  background-color: var(--darker-color4);
+  color: var(--light-color7);
   font-size: 1.125rem; /* Mesma altura da fonte do h2 */
   font-weight: 700;
   line-height: 1rem;
@@ -113,20 +98,27 @@
   margin: 0;
 }
 
-.register-inputs label {
-  display: block;
-  color: #ffffff;
-  font-size: 0.85rem;
-  margin-bottom: 0.3rem;
-  font-weight: 500;
-  line-height: 100%;
-  letter-spacing: -0.266px;
+.input-group {
+  margin-bottom: 1rem;
 }
 
-.register-inputs input {
-  width: 70%;
+.input-group::nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.input-group label {
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.input-group .input-icon-wrapper {
+  margin-top: 0.25rem;
+}
+
+.input-group .input-icon-wrapper input {
+  position: relative;
+  width: 100%;
   padding: 0.75rem;
-  padding-right: 2.5rem; /* Espaço para o ícone */
   border: none;
   font-size: 1rem;
   border-radius: 12px;
@@ -134,56 +126,24 @@
   color: var(--white-color) !important;
 }
 
-.register-inputs input::placeholder {
+.input-group .input-icon-wrapper input::placeholder {
   color: #acadb3;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 100%;
-  letter-spacing: -0.304px;
 }
 
-.register-inputs .icon {
+.input-group .input-icon-wrapper .icon {
   position: absolute;
-  right: 0.75rem;
+  right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
   pointer-events: none; /* Evita interferência no clique do input */
 }
 
-.register-inputs .register-group,
-.register-inputs .input-group {
-  margin-bottom: 0.875rem; /* Espaço entre os inputs */
-}
-
-/* Remover margem inferior do último input */
-.register-inputs .register-group:last-child,
-.register-inputs .input-group:last-child {
-  margin-bottom: 0;
-}
-
-.register-inputs .register:focus,
-.caregisterdastro-inputs input:hover {
+.input-group .input-icon-wrapper input:hover,
+.input-group .input-icon-wrapper input:active {
   border: 1px solid var(--primary-color-variant1);
   outline: none;
   color: var(--white-color) !important;
-}
-
-.input-group {
-  position: relative;
-  margin-bottom: 1.5rem; /* Espaçamento entre os grupos de entrada */
-}
-
-.input-icon-wrapper {
-  position: relative;
-}
-
-.input-icon-wrapper .icon {
-  position: absolute;
-  top: 50%;
-  right: 16px; /* Espaço à direita do input para o ícone */
-  transform: translateY(-50%);
-  width: 24px;
-  height: 24px;
 }
 
 .register-preferences {
@@ -193,7 +153,6 @@
 }
 
 .register-preferences .subtitle {
-  position: relative;
   display: flex;
   align-items: center;
   padding-bottom: 2rem;
@@ -204,11 +163,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1.125rem; /* Mesma altura da fonte do h2 */
-  height: 1.125rem; /* Mesma altura da fonte do h2 */
+  width: 1.75rem; /* Mesma altura da fonte do h2 */
+  height: 1.75rem; /* Mesma altura da fonte do h2 */
   border-radius: 50%;
-  background-color: #ffffff;
-  color: #141414;
+  background-color: var(--darker-color4);
+  color: var(--light-color7);
   font-size: 1.125rem; /* Mesma altura da fonte do h2 */
   font-weight: 700;
   line-height: 1rem;
@@ -230,28 +189,36 @@
 
 .register-chip-group {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(120px, 1fr)
+  ); /* Ajusta automaticamente */
   gap: 10px;
+  max-width: 100%; /* Certifica que não exceda a largura do container */
+  box-sizing: border-box;
 }
 
 .chip {
-  background-color: #131117; /* Cor de fundo do chip */
-  border: 1px solid #6100c2;
-  border-radius: 18px;
-  padding: 4px 10px; /* Espaçamento interno */
-  color: white; /* Cor do texto */
-  font-size: 12px; /* Tamanho da fonte */
-  cursor: pointer; /* Cursor de mãozinha */
   display: flex;
   align-items: center;
-  transition: background-color 0.1s; /* Transição suave ao passar o mouse */
+  justify-content: center;
+  background-color: #131117;
+  border: solid #6100c2;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  color: white;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.1s;
   white-space: nowrap;
+  box-sizing: border-box;
+  max-width: 100%; /* Certifica que o chip não exceda a largura do container */
 }
 
 .chip.active {
-  background-color: #6100c2; /* Cor de fundo quando ativo */
-  color: #ffffff; /* Cor do texto quando ativo */
-  border-color: #6100c2; /* Cor da borda quando ativo */
+  background-color: #6100c2;
+  color: #ffffff;
+  border-color: #6100c2;
 }
 
 .register-footer {
@@ -260,7 +227,6 @@
   align-items: center;
   width: 100%; /* Mesma largura do cadastro-wrapper */
   background-color: #050507; /* Mantém a cor de fundo */
-  padding: 3rem 7.3795rem; /* Adiciona o padding desejado */
 }
 
 .register-footer a {
@@ -300,4 +266,28 @@
   font-weight: 800;
   line-height: 1rem;
   letter-spacing: -0.14px;
+}
+
+.toast {
+  position: fixed;
+  display: none;
+  opacity: 0;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  min-width: 250px;
+  max-width: 500px;
+  min-height: 50px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--white-color);
+  background-color: var(--light-color6);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.toast.show {
+  display: block; /*mostra o toast*/
+  opacity: 1;
 }
