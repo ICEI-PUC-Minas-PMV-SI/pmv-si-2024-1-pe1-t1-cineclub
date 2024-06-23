@@ -141,7 +141,7 @@
   color: var(---white-color) !important;
 }
 
-.input-group {
+.login-input-group {
   position: relative;
   margin-bottom: 1.5rem; /* Espaçamento entre os grupos de entrada */
 }
