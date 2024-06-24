@@ -117,6 +117,7 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 
 /* Estilo ao passar o mouse por cima do chip */
 .chip:hover {
+
   background-color: #1c1e20; /* Cor de fundo mais escura */
   cursor: pointer;
 
