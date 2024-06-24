@@ -14,7 +14,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * José Vitor Montanha Martins
 * Joao Vitor Trigueiro 
 * Gabriela da Silva Chaves 
-* Victor Gabriel Sena Valadares
 * Bianca Amarante Magalhães
 
 ## Orientador
