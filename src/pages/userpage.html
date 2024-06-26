@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cine Club - User Page</title>
+    <!-- Importando a fonte Roboto do google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Importando o Bulma -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+
+    <!-- Importando estilos adicionais -->
+    <link rel="stylesheet" href="../style/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="userpage-content">
+        <section class="userpage-left-content">
+          <div class="userpage-logo">
+            <a href="http://localhost:8080/index.html">
+              <img src="../assets/images/img_logo.svg" alt="logotipo" />
+            </a>
+          </div>
+
+          <div class="userpage-separator"></div>
+
+          <div class="userpage-input-content">
+            <img src="../assets/icons/icon_search_.svg" alt="" />
+            <input
+              id="busca"
+              class="userpage-input"
+              type="text"
+              placeholder="Buscar Filmes ou Séries"
+            />
+          </div>
+
+          <div class="userpage-side-menu">
+            <nav class="userpage-navbar" role="navigation">
+              <a href="#" class="userpage-navbar-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22px"
+                  viewBox="0 -960 960 960"
+                  width="22px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M200-120v-680h360l16 80h224v400H520l-16-80H280v280h-80Z"
+                  />
+                </svg>
+                <span>Início</span>
+              </a>
+
+              <a href="#" class="userpage-navbar-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22px"
+                  viewBox="0 -960 960 960"
+                  width="22px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"
+                  />
+                </svg>
+                <span>Perfil</span>
+              </a>
+
+              <a href="#" class="userpage-navbar-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22px"
+                  viewBox="0 -960 960 960"
+                  width="22px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Z"
+                  />
+                </svg>
+                <span>Favoritos</span>
+              </a>
+
+              <a href="#" class="userpage-navbar-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22px"
+                  viewBox="0 -960 960 960"
+                  width="22px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z"
+                  />
+                </svg>
+                <span>Em Breve</span>
+              </a>
+            </nav>
+          </div>
+
+          <div class="avatar-content">
+            <div class="userpage-avatar" id="userpage-avatar"></div>
+            <span id="userpage-name"></span>
+          </div>
+
+          <div class="userpage-logout">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="22px"
+              viewBox="0 -960 960 960"
+              width="22px"
+              fill="#ffffff"
+            >
+              <path
+                d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"
+              />
+            </svg>
+            <a href="http://localhost:8080/index.html">Sair</a>
+          </div>
+        </section>
+
+        <section class="userpage-rigth-content">
+          <div class="userpage-banner-img">
+            <div class="userpage-banner-overlay"></div>
+            <img id="userpage-banner-image" alt="banner do filme em destaque" />
+
+            <div class="userpage-group-banner">
+              <p id="userpage-banner-title"></p>
+              <p id="userpage-banner-info" class="userpage-text-info"></p>
+              <div class="userpage-button-container">
+                <a class="button-assista-agora" href="pages/register.html"
+                  >Assista Agora</a
+                >
+                <button class="button-favoritar">
+                  <img
+                    id="icon-favoritar"
+                    src="../assets/icons/icon_favorite.svg"
+                    alt="icone de coração"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="userpage-service-midia-content">
+            <p>Serviços de Mídia</p>
+
+            <div class="userpage-midia-item-content">
+              <img
+                src="../assets/images/img_apple_media.jpeg"
+                alt="apple logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_disney_media.jpeg"
+                alt="disney logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_prime_video.jpeg"
+                alt="prime logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_netflix_media.jpeg"
+                alt="netflix logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_hbo_max.jpeg"
+                alt="hbo logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_paramount.jpeg"
+                alt="paramount logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_pluto_tv.jpg"
+                alt="pluto logo"
+                class="userpage-service-midia"
+              />
+            </div>
+          </div>
+
+          <div class="userpage-recomended">
+            <span class="userpage-recomended-title">Recomendados</span>
+
+            <div
+              id="userpage-recomended-group"
+              class="userpage-recomended-group"
+            ></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="../js/userPage.js"></script>
+  </body>
+</html>

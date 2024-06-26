@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <title>Cine Club - Cadastro</title>
+  </head>
+  <body>
+    <main>
+      <div class="register-content">
+        <section class="register-left-section">
+          <div class="register-overlay"></div>
+          <div class="register-logo">
+            <a href="http://localhost:8080/index.html">
+              <img src="../../assets/images/img_logo.svg" alt="logotipo" />
+            </a>
+          </div>
+        </section>
+
+        <section class="register-wrapper">
+          <h1>Criar sua conta</h1>
+
+          <form id="registerForm" class="register-inputs">
+            <div class="subtitle">
+              <h2>Informações Pessoais</h2>
+            </div>
+            <div class="input-group">
+              <label for="name">Nome</label>
+              <div class="input-icon-wrapper">
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Digite seu nome"
+                  autocomplete="name"
+                />
+                <img
+                  class="icon"
+                  src="../assets/icons/icon_mail.svg"
+                  alt="icone nome"
+                />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <div class="input-icon-wrapper">
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="Digite seu email"
+                  autocomplete="email"
+                />
+                <img
+                  class="icon"
+                  src="../assets/icons/icon_mail.svg"
+                  alt="icone email"
+                />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="password">Senha</label>
+              <div class="input-icon-wrapper">
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="Digite sua senha"
+                />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="confirm-password">Confirmar senha</label>
+              <div class="input-icon-wrapper">
+                <input
+                  id="confirm-password"
+                  type="password"
+                  placeholder="Confirme sua senha"
+                />
+              </div>
+            </div>
+
+            <div class="register-preferences">
+              <div class="inner-wrapper">
+                <div class="subtitle">
+                  <h2>Preferências</h2>
+                </div>
+                <div class="register-buttons-group">
+                  <div
+                    class="register-chip-group"
+                    id="register-chip-group"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <section class="register-footer">
+              <button
+                class="register-btn"
+                type="submit"
+                onclick="registerUser(event)"
+              >
+                Salvar
+              </button>
+              <span class="register-signup-text"
+                >Já possui uma conta?
+                <a class="register-signup-link" href="../pages/login.html"
+                  >Fazer Login</a
+                ></span
+              >
+            </section>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <div class="toast" id="toast"></div>
+    <script src="../js/register.js"></script>
+  </body>
+</html>

@@ -1,0 +1,262 @@
+.login-content {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.login-side-banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #141414;
+  width: 30%;
+  height: 100%;
+}
+
+.login-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: none; /* Permite clicar através do overlay */
+}
+
+.login-side-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.login-logo {
+  position: absolute;
+  top: 2rem;
+  left: 30%;
+  width: 9rem;
+  height: auto;
+}
+
+.login-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.login-text-banner {
+  position: absolute;
+  width: 90%;
+  padding: 0 1rem;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Ajusta para que o ponto central do contêiner seja o ponto de origem */
+}
+
+.login-text-banner p {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  margin: 0;
+}
+
+.login-wrapper {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #050507;
+}
+
+.login-wrapper h1 {
+  position: absolute;
+  top: 2rem;
+  left: 7.9375rem;
+  color: #e2e2e2;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.025rem;
+}
+
+.login-inputs {
+  position: absolute;
+  top: 8.2rem;
+  left: 7.9375rem;
+  width: 100%;
+}
+
+.login-inputs label {
+  display: block;
+  color: #ffffff;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.266px;
+  position: relative;
+}
+
+.login-inputs .icon {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Evita interferência no clique do input */
+}
+
+.login-inputs input {
+  width: 70%;
+  padding: 0.75rem;
+  padding-right: 2.5rem; /* Espaço para o ícone */
+  border: none;
+  font-size: 1rem;
+  border-radius: 12px;
+  background: var(--darker-color2);
+  color: var(---white-color) !important;
+}
+
+.login-inputs input::placeholder {
+  color: #acadb3;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.304px;
+}
+
+.login-inputs input:focus,
+.login-inputs input:hover {
+  border: 1px solid var(--primary-color-variant1);
+  outline: none;
+  color: var(---white-color) !important;
+}
+
+.login-input-group {
+  position: relative;
+  margin-bottom: 1.5rem; /* Espaçamento entre os grupos de entrada */
+}
+
+.input-icon-wrapper {
+  position: relative;
+}
+
+.input-icon-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  right: 16px; /* Espaço à direita do input para o ícone */
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.forgot-password {
+  position: absolute;
+  top: 18rem;
+  left: 7.9375rem;
+  color: var(--info-color);
+  font-size: 0.85rem;
+  text-decoration: none; /* Remover sublinhado do link */
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: -0.14px;
+  text-decoration-line: underline;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #003399;
+}
+
+.login-btn {
+  position: absolute;
+  top: 22rem;
+  left: 50%; /* Posicionamento inicial */
+  transform: translateX(-50%); /* Centralizar horizontalmente */
+  border-radius: 12px;
+  background: #6100c2;
+  color: #ffffff;
+  width: 360px;
+  height: 56px;
+  transition: all 0.3s ease; /* Adiciona a transição suave */
+  transform-origin: center; /* Define o ponto de origem da transformação */
+}
+
+.login-btn:hover {
+  transform: translateX(-50%) scale(1.05); /* Aumenta o botão em 5% e mantém centralizado */
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+span.signup-text {
+  position: absolute;
+  top: 26rem;
+  left: 50%;
+  transform: translateX(-50%); /* Centralizar horizontalmente */
+  color: var(---white-color);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: -0.14px;
+}
+
+span.signup-text a.signup-link {
+  color: var(--primary-color-light);
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1rem;
+  letter-spacing: -0.14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+span.signup-text a.signup-link:hover {
+  color: #6100c2; /* Define a cor de destaque mais escura no hover */
+}
+
+/*  Telas pequenas */
+@media screen and (max-width: 768px) {
+  .login-side-banner {
+    width: 100%;
+  }
+
+  .login-wrapper {
+    width: 100%;
+  }
+
+  .login-inputs {
+    top: 10rem; /* Ajusta a posição vertical */
+    left: 2rem; /* Ajusta a posição horizontal */
+  }
+
+  .forgot-password,
+  .signup-text {
+    top: 22rem;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+  }
+
+  .login-inputs input {
+    width: 90%; /* Reduz a largura do input */
+  }
+
+  .login-btn {
+    top: 28rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+}
+
+/* TODO:Estilos para telas médias e grandes */
+@media screen and (min-width: 769px) {
+}

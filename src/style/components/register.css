@@ -1,0 +1,293 @@
+.register-content {
+  display: flex;
+  width: 100%;
+  background-color: #141414;
+}
+
+.register-left-section {
+  position: relative;
+  width: 30%;
+  background-image: url('../../assets/images/img_banner_principal.svg');
+  background-repeat: repeat-y;
+  background-size: auto;
+}
+
+.register-left-section .register-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: none; /* Permite clicar através do overlay */
+}
+
+.register-left-section img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.register-logo {
+  position: absolute;
+  top: 2rem;
+  left: 30%;
+  width: 9rem;
+  height: auto;
+}
+
+.register-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha os itens ao topo */
+  justify-content: center;
+  width: 70%;
+  padding: 0 7rem; /* Adiciona padding para espaçamento interno */
+  background-color: #050507;
+}
+
+.register-wrapper h1 {
+  width: 100%;
+  text-align: left;
+  color: #e2e2e2;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.register-inputs {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.register-inputs .subtitle {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.register-inputs .subtitle::before {
+  content: '1'; /* Número dentro do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem; /* Mesma altura da fonte do h2 */
+  height: 1.75rem; /* Mesma altura da fonte do h2 */
+  border-radius: 50%;
+  background-color: var(--darker-color4);
+  color: var(--light-color7);
+  font-size: 1.125rem; /* Mesma altura da fonte do h2 */
+  font-weight: 700;
+  line-height: 1rem;
+  margin-right: 0.5rem; /* Espaçamento entre o círculo e o texto */
+}
+
+.register-inputs h2 {
+  color: #f0efef;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: -0.18px;
+  margin: 0;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group::nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.input-group label {
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.input-group .input-icon-wrapper {
+  margin-top: 0.25rem;
+}
+
+.input-group .input-icon-wrapper input {
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 12px;
+  background: var(--darker-color2);
+  color: var(--white-color) !important;
+}
+
+.input-group .input-icon-wrapper input::placeholder {
+  color: #acadb3;
+}
+
+.input-group .input-icon-wrapper .icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  pointer-events: none; /* Evita interferência no clique do input */
+}
+
+.input-group .input-icon-wrapper input:hover,
+.input-group .input-icon-wrapper input:active {
+  border: 1px solid var(--primary-color-variant1);
+  outline: none;
+  color: var(--white-color) !important;
+}
+
+.register-preferences {
+  width: 100%;
+  margin-top: 40px; /* Espaço de 40px entre register-inputs e register-preferencias */
+  margin-bottom: 80px; /* Espaço entre as preferências e o footer */
+}
+
+.register-preferences .subtitle {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.register-preferences .subtitle::before {
+  content: '2'; /* Número dentro do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem; /* Mesma altura da fonte do h2 */
+  height: 1.75rem; /* Mesma altura da fonte do h2 */
+  border-radius: 50%;
+  background-color: var(--darker-color4);
+  color: var(--light-color7);
+  font-size: 1.125rem; /* Mesma altura da fonte do h2 */
+  font-weight: 700;
+  line-height: 1rem;
+  margin-right: 0.5rem; /* Espaçamento entre o círculo e o texto */
+}
+
+.register-preferences .subtitle h2 {
+  color: #f0efef;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: -0.18px;
+  margin: 0;
+}
+
+.register-buttons-group {
+  margin-top: 0.5rem;
+}
+
+.register-chip-group {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(120px, 1fr)
+  ); /* Ajusta automaticamente */
+  gap: 10px;
+  max-width: 100%; /* Certifica que não exceda a largura do container */
+  box-sizing: border-box;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #131117;
+  border: solid #6100c2;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  color: white;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  white-space: nowrap;
+  box-sizing: border-box;
+  max-width: 100%; /* Certifica que o chip não exceda a largura do container */
+}
+
+.chip.active {
+  background-color: #6100c2;
+  color: #ffffff;
+  border-color: #6100c2;
+}
+
+.register-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Mesma largura do cadastro-wrapper */
+  background-color: #050507; /* Mantém a cor de fundo */
+}
+
+.register-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.register-footer .register-btn {
+  width: 360px;
+  height: 56px;
+  background-color: var(--primary-color);
+  border: none;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 1rem; /* Espaço abaixo do botão */
+}
+
+.register-footer .register-signup-text {
+  color: #ffffff;
+  margin-top: 1rem;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.14px;
+}
+
+.register-footer .register-signup-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1rem;
+  letter-spacing: -0.14px;
+}
+
+.toast {
+  position: fixed;
+  display: none;
+  opacity: 0;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  min-width: 250px;
+  max-width: 500px;
+  min-height: 50px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--white-color);
+  background-color: var(--light-color6);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.toast.show {
+  display: block; /*mostra o toast*/
+  opacity: 1;
+}
