@@ -5,7 +5,7 @@
 # Página do Usuário
 A página do usuário está organizada de forma a proporcionar uma navegação intuitiva e personalizada, oferecendo fácil acesso a diversas funcionalidades e recomendações de conteúdo.
 
-[userpage.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/User%20Page.png)
+![userpage.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/User%20Page.png)
 
 ## Cores
 
@@ -15,11 +15,11 @@ Paleta de cores: Tons de cinza escuro e preto para o fundo, com roxo para botõe
 
 ## Tipografia
 As fontes são modernas e legíveis, provavelmente uma sans-serif. Elas são adequadas para o público-alvo e o contexto digital.
-[tipografia.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/tipografia.png)
+![tipografia.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/tipografia.png)
 
 ## Iconografia
 A iconografia é usada de maneira eficaz para representar ações e categorias. Os ícones são simples e intuitivos, o que facilita a navegação e a compreensão das funcionalidades.
-[icon.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/iconografia.png)
+![icon.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/iconografia.png)
 
 ## Design
 
