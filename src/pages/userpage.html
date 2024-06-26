@@ -18,16 +18,6 @@
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
     />
 
-    <!-- Importando o FontAwesome -->
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-MO2GszlQAs6UpJq81KXMxZOmT9eUccPf9Fgk6euuHlgy89XCO5mDpXAM4rLrM7LmURs7Z5K0W5iZTl94V5mQQw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <!-- Importando estilos adicionais -->
     <link rel="stylesheet" href="../style/index.css" />
   </head>
@@ -118,8 +108,8 @@
           </div>
 
           <div class="avatar-content">
-            <div class="userpage-avatar" id="userpage-avatar">GC</div>
-            <span> Gabriela S. Chaves </span>
+            <div class="userpage-avatar" id="userpage-avatar"></div>
+            <span id="userpage-name"></span>
           </div>
 
           <div class="userpage-logout">
@@ -137,19 +127,15 @@
             <a href="http://localhost:8080/index.html">Sair</a>
           </div>
         </section>
+
         <section class="userpage-rigth-content">
           <div class="userpage-banner-img">
             <div class="userpage-banner-overlay"></div>
-            <img
-              src="../assets/images/img_the_book_of _Eli _wallpaper.jpeg"
-              alt="filme livro de Eli"
-            />
+            <img id="userpage-banner-image" alt="banner do filme em destaque" />
 
             <div class="userpage-group-banner">
-              <p>O livro de Ely</p>
-              <p class="userpage-text-info">
-                2010 | Triller / Ação • 1h 58 min
-              </p>
+              <p id="userpage-banner-title"></p>
+              <p id="userpage-banner-info" class="userpage-text-info"></p>
               <div class="userpage-button-container">
                 <a class="button-assista-agora" href="pages/register.html"
                   >Assista Agora</a
@@ -176,26 +162,38 @@
               />
 
               <img
-                src="../assets/images/img_apple_media.jpeg"
-                alt="apple logo"
+                src="../assets/images/img_disney_media.jpeg"
+                alt="disney logo"
                 class="userpage-service-midia"
               />
 
               <img
-                src="../assets/images/img_apple_media.jpeg"
-                alt="apple logo"
+                src="../assets/images/img_prime_video.jpeg"
+                alt="prime logo"
                 class="userpage-service-midia"
               />
 
               <img
-                src="../assets/images/img_apple_media.jpeg"
-                alt="apple logo"
+                src="../assets/images/img_netflix_media.jpeg"
+                alt="netflix logo"
                 class="userpage-service-midia"
               />
 
               <img
-                src="../assets/images/img_apple_media.jpeg"
-                alt="apple logo"
+                src="../assets/images/img_hbo_max.jpeg"
+                alt="hbo logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_paramount.jpeg"
+                alt="paramount logo"
+                class="userpage-service-midia"
+              />
+
+              <img
+                src="../assets/images/img_pluto_tv.jpg"
+                alt="pluto logo"
                 class="userpage-service-midia"
               />
             </div>
@@ -204,79 +202,14 @@
           <div class="userpage-recomended">
             <span class="userpage-recomended-title">Recomendados</span>
 
-            <div class="userpage-recomended-group">
-              <div class="userpage-recomended-item">
-                <div class="userpage-recomended-movie-note">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    width="24px"
-                    fill="#FFA41C"
-                  >
-                    <path
-                      d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"
-                    />
-                  </svg>
-                  4.2
-                </div>
-
-                <div class="userpage-recomended-item-info">
-                  <span class="userpage-info-movie-name">The Hobbit</span>
-                  <div class="userpage-info-movie-details">
-                    <span class="userpage-info-movie-year">2012</span>
-                    <span class="userpage-info-movie-genre">Aventura</span>
-                    <span class="userpage-info-movie-time">3h</span>
-                  </div>
-                </div>
-              </div>
-              <div class="userpage-recomended-item">
-                <div class="userpage-recomended-movie-note">
-                  <i class="fas fa-star"></i> 4.2
-                </div>
-
-                <div class="userpage-recomended-item-info">
-                  <span class="userpage-info-movie-name">The Hobbit</span>
-                  <div class="userpage-info-movie-details">
-                    <span class="userpage-info-movie-year">2012</span>
-                    <span class="userpage-info-movie-genre">Aventura</span>
-                    <span class="userpage-info-movie-time">3h</span>
-                  </div>
-                </div>
-              </div>
-              <div class="userpage-recomended-item">
-                <div class="userpage-recomended-movie-note">
-                  <i class="fas fa-star"></i> 4.2
-                </div>
-
-                <div class="userpage-recomended-item-info">
-                  <span class="userpage-info-movie-name">The Hobbit</span>
-                  <div class="userpage-info-movie-details">
-                    <span class="userpage-info-movie-year">2012</span>
-                    <span class="userpage-info-movie-genre">Aventura</span>
-                    <span class="userpage-info-movie-time">3h</span>
-                  </div>
-                </div>
-              </div>
-              <div class="userpage-recomended-item">
-                <div class="userpage-recomended-movie-note">
-                  <i class="fas fa-star"></i> 4.2
-                </div>
-
-                <div class="userpage-recomended-item-info">
-                  <span class="userpage-info-movie-name">The Hobbit</span>
-                  <div class="userpage-info-movie-details">
-                    <span class="userpage-info-movie-year">2012</span>
-                    <span class="userpage-info-movie-genre">Aventura</span>
-                    <span class="userpage-info-movie-time">3h</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div
+              id="userpage-recomended-group"
+              class="userpage-recomended-group"
+            ></div>
           </div>
         </section>
       </div>
     </main>
-    <script src="../js/register.js"></script>
+    <script src="../js/userPage.js"></script>
   </body>
 </html>
