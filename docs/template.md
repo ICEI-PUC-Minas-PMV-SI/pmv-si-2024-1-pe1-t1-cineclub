@@ -1,6 +1,6 @@
 # Template padrão do site
 
-A identidade visual é estrturada por meio de uma paleta de cores que combina tons escuros e destaques em roxo. Os elementos de design refletem uma estética moderna e tecnológica, que é apropriada para um site de guia de streaming. 
+<p align="justify">A identidade visual do CINECLUB é estruturada por meio de uma paleta de cores que combina tons escuros e destaques em roxo. Os elementos de design refletem uma estética moderna, elegante, atraente e convidativa, enquanto o layout minimalista facilita a navegação e a busca por informações. Os elementos visuais se alinham com as expectativas dos usuários de um guia de streaming transmitindo uma sensação de confiabilidade e qualidade.</p>
 
 # Página do Usuário
 A página do usuário está organizada de forma a proporcionar uma navegação intuitiva e personalizada, oferecendo fácil acesso a diversas funcionalidades e recomendações de conteúdo.
