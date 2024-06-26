@@ -1,4 +1,6 @@
 ## User Flow
+![flow.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/flow.png)
+
 
 
 
