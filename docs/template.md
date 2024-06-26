@@ -1,9 +1,25 @@
 # Template padrão do site
 
-A identidade visual do site é clara e coesa, com uma paleta de cores que combina tons escuros e destaques em roxo. Os elementos de design refletem uma estética moderna e tecnológica, que é apropriada para um site de guia de streaming.
-Paleta de Cores: Tons de cinza escuro e preto para o fundo, com roxo para botões e destaques. Essa combinação cria um contraste visualmente agradável e facilita a leitura.
-Tipografia: 
-Uso de Imagens: Imagens de alta qualidade de filmes e séries são utilizadas para atrair a atenção e fornecer contexto visual imediato.
+A identidade visual é estrturada por meio de uma paleta de cores que combina tons escuros e destaques em roxo. Os elementos de design refletem uma estética moderna e tecnológica, que é apropriada para um site de guia de streaming. 
+
+# Página do Usuário
+A página do usuário está organizada de forma a proporcionar uma navegação intuitiva e personalizada, oferecendo fácil acesso a diversas funcionalidades e recomendações de conteúdo.
+
+[userpage.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/User%20Page.png)
+
+## Cores
+
+Paleta de cores: Tons de cinza escuro e preto para o fundo, com roxo para botões e destaques. Essa combinação cria um contraste visualmente agradável e facilita a leitura.
+[color.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/color.png)
+
+
+## Tipografia
+As fontes são modernas e legíveis, provavelmente uma sans-serif. Elas são adequadas para o público-alvo e o contexto digital.
+[tipografia.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/tipografia.png)
+
+## Iconografia
+A iconografia é usada de maneira eficaz para representar ações e categorias. Os ícones são simples e intuitivos, o que facilita a navegação e a compreensão das funcionalidades.
+[icon.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/iconografia.png)
 
 ## Design
 
@@ -37,15 +53,3 @@ Rodapé:
 Links de Navegação: Links para páginas como Sobre, Contato e Termos de Uso.
 Redes Sociais: Ícones para redes sociais.
 
-
-## Cores
-
-Paleta de cores: Tons de cinza escuro e preto para o fundo, com roxo para botões e destaques. Essa combinação cria um contraste visualmente agradável e facilita a leitura.
-
-
-## Tipografia
-As fontes são modernas e legíveis, provavelmente uma sans-serif. Elas são adequadas para o público-alvo e o contexto digital.
-
-
-## Iconografia
-A iconografia é usada de maneira eficaz para representar ações e categorias. Os ícones são simples e intuitivos, o que facilita a navegação e a compreensão das funcionalidades.
