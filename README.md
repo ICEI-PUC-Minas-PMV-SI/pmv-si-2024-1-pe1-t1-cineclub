@@ -6,7 +6,8 @@ CineClub
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O CineClub é uma plataforma criada para tornar a experiência de escolha de filmes mais fácil e intuitiva para os usuários. A plataforma oferece recomendações personalizadas, baseadas nas preferências individuais de cada usuário, ajudando-os a descobrir filmes que correspondam aos seus interesses de forma rápida e eficiente.
+
 
 ## Integrantes
 
