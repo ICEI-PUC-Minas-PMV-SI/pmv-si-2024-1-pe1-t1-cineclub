@@ -134,6 +134,7 @@
 .userpage-banner-img {
   position: relative;
   width: 100%;
+  height: 500px;
 }
 
 .userpage-banner-overlay {
@@ -148,6 +149,7 @@
 .userpage-banner-img img {
   width: 100%;
   height: 100%;
+  background-size: cover;
 }
 
 .userpage-group-banner {
@@ -168,7 +170,7 @@
 .userpage-button-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 1rem;
 }
 
@@ -252,6 +254,8 @@
 
 .userpage-midia-item-content img {
   width: 6rem;
+  height: 3.5rem;
+  object-fit: cover;
 }
 
 .userpage-service-midia {
@@ -275,9 +279,10 @@
 
 .userpage-recomended-group {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .userpage-recomended-item {
@@ -286,12 +291,22 @@
   flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
-  width: 14.87rem;
+  width: 15rem;
   height: 17rem;
   border-radius: 0.75rem;
-  background-image: url('../../assets/images/img_the_hobbit_bilbo.jpeg');
   background-size: cover;
   background-position: center;
+}
+
+.userpage-recomended-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
 }
 
 .userpage-recomended-movie-note {
@@ -302,6 +317,7 @@
   left: 10px;
   color: #ffffff;
   font-size: 1.2rem; /* Tamanho do ícone de estrela */
+  z-index: 1001;
 }
 
 .userpage-recomended-movie-note svg {
@@ -322,6 +338,7 @@
   );
 
   backdrop-filter: blur(10px);
+  z-index: 1002;
 }
 
 .userpage-info-movie-name {
