@@ -1,135 +1,100 @@
 {
   "availablePreferences": [
     {
-      "id": "1",
+      "id": "28",
       "name": "Ação"
     },
     {
-      "id": "2",
+      "id": "12",
       "name": "Aventura"
     },
     {
-      "id": "3",
+      "id": "16",
+      "name": "Animação"
+    },
+    {
+      "id": "35",
       "name": "Comédia"
     },
     {
-      "id": "4",
-      "name": "Dança"
+      "id": "80",
+      "name": "Crime"
     },
     {
-      "id": "5",
+      "id": "99",
       "name": "Documentário"
     },
     {
-      "id": "6",
+      "id": "18",
       "name": "Drama"
     },
     {
-      "id": "7",
-      "name": "Espionagem"
-    },
-    {
-      "id": "8",
-      "name": "Faroeste"
-    },
-    {
-      "id": "9",
-      "name": "Fantasia"
-    },
-    {
-      "id": "10",
-      "name": "Ficção Científica"
-    },
-    {
-      "id": "11",
-      "name": "Guerra"
-    },
-    {
-      "id": "12",
-      "name": "Mistério"
-    },
-    {
-      "id": "13",
-      "name": "Musical"
+      "id": "10751",
+      "name": "Família"
     },
     {
       "id": "14",
-      "name": "Filme Policial"
+      "name": "Fantasia"
     },
     {
-      "id": "15",
-      "name": "Romance"
+      "id": "36",
+      "name": "História"
     },
     {
-      "id": "16",
+      "id": "27",
       "name": "Terror"
     },
     {
-      "id": "17",
+      "id": "10402",
+      "name": "Música"
+    },
+    {
+      "id": "9648",
+      "name": "Mistério"
+    },
+    {
+      "id": "10749",
+      "name": "Romance"
+    },
+    {
+      "id": "878",
+      "name": "Ficção científica"
+    },
+    {
+      "id": "10770",
+      "name": "Cinema TV"
+    },
+    {
+      "id": "53",
       "name": "Thriller"
+    },
+    {
+      "id": "10752",
+      "name": "Guerra"
+    },
+    {
+      "id": "37",
+      "name": "Faroeste"
     }
   ],
   "users": [
     {
-      "id": "01f0",
-      "nome": "ana",
-      "email": "ana@email.com",
-      "senha": "12345"
-    },
-    {
-      "id": "9c51",
-      "nome": "apolo",
-      "email": "apolo@email.com",
-      "senha": "12345"
-    },
-    {
-      "id": "54dc",
-      "nome": "Hugo B. de Paula",
-      "email": "hugo@email.com",
-      "senha": "1231456"
-    },
-    {
-      "id": "4e02",
-      "nome": "aldo",
-      "email": "aldo@email.com",
-      "senha": "123456"
+      "id": "5f66",
+      "nome": "Allan Guerra",
+      "email": "allanguerra@email.com",
+      "senha": "1234"
     }
   ],
   "userPreferences": [
     {
-      "id": "02bd",
-      "userId": "01f0",
+      "id": "9b10",
+      "userId": "5f66",
       "tags": [
-        "{\"id\":\"1\",\"name\":\"Ação\"}",
-        "{\"id\":\"7\",\"name\":\"Espionagem\"}",
-        "{\"id\":\"13\",\"name\":\"Musical\"}",
-        "{\"id\":\"17\",\"name\":\"Thriller\"}"
-      ]
-    },
-    {
-      "id": "f2b4",
-      "userId": "9c51",
-      "tags": [
-        "{\"id\":\"1\",\"name\":\"Ação\"}",
-        "{\"id\":\"2\",\"name\":\"Aventura\"}",
-        "{\"id\":\"7\",\"name\":\"Espionagem\"}",
-        "{\"id\":\"13\",\"name\":\"Musical\"}",
-        "{\"id\":\"17\",\"name\":\"Thriller\"}"
-      ]
-    },
-    {
-      "id": "12f1",
-      "userId": "54dc",
-      "tags": [
-        "{\"id\":\"1\",\"name\":\"Ação\"}"
-      ]
-    },
-    {
-      "id": "d8f9",
-      "userId": "4e02",
-      "tags": [
-        "{\"id\":\"14\",\"name\":\"Filme Policial\"}",
-        "{\"id\":\"15\",\"name\":\"Romance\"}"
+        "16",
+        "80",
+        "14",
+        "878",
+        "53"
       ]
     }
   ]
