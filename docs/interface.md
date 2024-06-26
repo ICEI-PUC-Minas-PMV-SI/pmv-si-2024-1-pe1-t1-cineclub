@@ -1,38 +1,19 @@
-
-# Projeto de Interface
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
+Para os wireframes do nosso projeto, optamos pelo modelo de alta fidelidade. Todas as telas apresentam cabeçalhos e rodapés padronizados, contendo o logo da plataforma CINECLUB. No cabeçalho da home page, oferecemos dois botões: um para login, caso o usuário já tenha cadastro, e outro para cadastro, caso o usuário ainda tenha o registro. Além disso, incluímos atalhos para a home, lista de filmes, séries e informações.
 
-### Exemplo
 
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Na home page, o usuário terá acesso às informações dos conteúdos disponíveis ao se cadastrar no site. Será exibido, as principais categorias e várias opções de filmes e séries disponíveis em diferentes plataformas de streaming, bem como categorias de conteúdo e uma lista completa de todos os filmes e séries disponíveis. A disposição em grade foi escolhida como padrão para a exibição dos conteúdos em nosso projeto. Ao rolar a página para baixo, o usuário encontrará seções informativas sobre a descoberta de novos filmes e séries. Nessas seções, ele poderá optar por se cadastrar ou clicar diretamente no conteúdo desejado, sendo direcionado para a página de login. Mais abaixo, há uma indicação para explorar mais filmes e séries através do botão "Encontre Mais Filmes e Séries", que também leva ao login. Por fim, oferecemos recomendações de filmes e séries com o botão "Acesse", que igualmente redireciona o usuário para a página de login.
 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+
+A tela de login do nosso site é projetada de maneira intuitiva e elegante, dividida em duas seções distintas para facilitar a navegação. No lado esquerdo, você encontrará o logo do nosso site, que oferece uma identidade visual clara e acolhedora. No lado direito, estão localizadas duas caixas de entrada onde você pode inserir suas informações de login: seu e-mail e sua senha. Essa disposição foi pensada para oferecer uma experiência de usuário mais fluida e eficiente, garantindo que o processo de login seja simples e rápido.
+
+
+A tela de cadastro adota uma estética moderna e profissional, com um fundo escuro que destaca os elementos em roxo. As instruções são claras e concisas, garantindo uma experiência de usuário agradável e eficiente. O design é responsivo, assegurando que todos os elementos sejam acessíveis em diferentes dispositivos e tamanhos de tela. Essa estrutura garante que o processo de cadastro seja simples e direto, incentivando novos usuários a se registrarem na plataforma CINECLUB.
+
