@@ -10,7 +10,7 @@ A página do usuário está organizada de forma a proporcionar uma navegação i
 ## Cores
 
 Paleta de cores: Tons de cinza escuro e preto para o fundo, com roxo para botões e destaques. Essa combinação cria um contraste visualmente agradável e facilita a leitura.
-[color.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/color.png)
+![color.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t1-cineclub/blob/main/docs/img/color.png)
 
 
 ## Tipografia
