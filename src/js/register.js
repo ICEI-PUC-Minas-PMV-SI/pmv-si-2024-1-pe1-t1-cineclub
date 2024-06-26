@@ -24,15 +24,14 @@ const createPreferencesButtonList = () => {
         const preferenceButton = document.createElement('button');
         preferenceButton.setAttribute('class', 'chip');
         preferenceButton.setAttribute('type', 'button');
-        preferenceButton.setAttribute(
-          'data-preference',
-          JSON.stringify(preference)
-        );
+        preferenceButton.setAttribute('data-preference', preference.id);
         preferenceButton.textContent = preference.name;
         preferenceButton.addEventListener('click', () => {
           preferenceButton.classList.toggle('active');
         });
-        preferencesContainer.appendChild(preferenceButton);
+        if (preferencesContainer) {
+          preferencesContainer.appendChild(preferenceButton);
+        }
       });
 
       // CHIPS - BOTÕES DE PREFERÊNCIAS
