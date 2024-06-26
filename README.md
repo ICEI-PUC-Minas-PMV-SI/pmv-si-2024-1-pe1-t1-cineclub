@@ -12,8 +12,6 @@ O CineClub é uma plataforma criada para tornar a experiência de escolha de fil
 ## Integrantes
 
 * Lucas Freitas Villela Lourenço 
-* José Vitor Montanha Martins
-* Joao Vitor Trigueiro 
 * Gabriela da Silva Chaves 
 * Bianca Amarante Magalhães
 
