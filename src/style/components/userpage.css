@@ -1,0 +1,360 @@
+.userpage-content {
+  display: flex;
+  width: 100%;
+  background-color: var(--darker-color0);
+}
+
+.userpage-left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  min-height: 100vh;
+  background-color: var(--darker-color1);
+  padding: 0 1rem;
+}
+
+.userpage-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.userpage-separator {
+  width: 100%;
+  border-bottom: 2px solid #29292e;
+  margin: 1.5rem 0; /* Espaçamento acima e abaixo do separador */
+}
+
+.userpage-input-content {
+  display: flex;
+  width: 100%;
+  background: black;
+  border-radius: 4px;
+  border: 1px #1f1f1f solid;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.userpage-input-content .userpage-input {
+  background: none;
+  border: none;
+  flex-grow: 1;
+  font-size: 0.75rem;
+  color: #5c5c5c;
+  outline: unset;
+  padding-left: 0.5rem;
+}
+
+.userpage-side-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.userpage-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.userpage-navbar-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  color: var(--white-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.userpage-navbar-item:hover {
+  background: var(--darker-color4);
+  border-radius: 8px;
+}
+
+.userpage-navbar-item svg {
+  color: inherit;
+}
+
+.userpage-navbar-item span {
+  margin-left: 1rem;
+}
+
+.avatar-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.375rem;
+}
+
+.userpage-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #9a95c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.avatar-content span {
+  font-size: 1rem;
+  padding-left: 0.75rem;
+}
+
+.userpage-logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.userpage-logout a {
+  font-size: 1rem;
+  margin-left: 0.8rem;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.userpage-rigth-content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  min-height: 100vh;
+}
+
+.userpage-banner-img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.userpage-banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.userpage-banner-img img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.userpage-group-banner {
+  position: absolute;
+  top: 14rem;
+  left: 2rem;
+  color: var(--white-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.userpage-text-info {
+  color: var(--light-color4);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.userpage-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.userpage-button-container .button-assista-agora {
+  border-radius: 0.5rem;
+  background-color: var(--primary-color-dark);
+  color: var(--light-color1);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  padding: 1rem 2rem;
+}
+
+.userpage-button-container .button-assista-agora:hover {
+  transform: scale(1.05);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.button-favoritar {
+  display: flex;
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.875rem;
+  border: 1px solid #fff;
+  background: linear-gradient(
+    99deg,
+    #fff 3.36%,
+    rgba(255, 255, 255, 0) 238.16%
+  );
+  backdrop-filter: blur(0.625rem);
+  transition: all 0.3s ease;
+}
+
+.button-favoritar:hover {
+  background: linear-gradient(
+    99deg,
+    rgba(255, 255, 255, 0.5) 3.36%,
+    rgba(255, 255, 255, 0) 238.16%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.button-favoritar.small {
+  height: 0.75rem;
+  width: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.button-favoritar.small svg {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.userpage-service-midia-content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.userpage-service-midia-content p {
+  color: var(--white-color);
+  font-size: 1.5rem;
+}
+
+.userpage-midia-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.userpage-midia-item-content img {
+  width: 6rem;
+  height: 3.5rem;
+  object-fit: cover;
+}
+
+.userpage-service-midia {
+  width: 100%;
+  border-radius: 0.75rem;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 1.5rem;
+}
+
+.userpage-recomended {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.userpage-recomended-title {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.userpage-recomended-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.userpage-recomended-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 15rem;
+  height: 17rem;
+  border-radius: 0.75rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.userpage-recomended-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.userpage-recomended-movie-note {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+  font-size: 1.2rem; /* Tamanho do ícone de estrela */
+  z-index: 1001;
+}
+
+.userpage-recomended-movie-note svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.userpage-recomended-item-info {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  opacity: 0.95;
+  background: linear-gradient(
+    100deg,
+    #fff 12.94%,
+    rgba(255, 255, 255, 0) 159.1%
+  );
+
+  backdrop-filter: blur(10px);
+  z-index: 1002;
+}
+
+.userpage-info-movie-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.userpage-info-movie-details {
+  display: flex;
+}
+
+.userpage-info-movie-details span {
+  margin-bottom: 2px;
+  margin-right: 10px;
+}
+
+.userpage-info-movie-details span:last-child {
+  margin-right: 0;
+}

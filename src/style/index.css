@@ -7,6 +7,7 @@
 /* Página Login */
 @import './components/login.css';
 @import './components/register.css';
+@import './components/userpage.css';
 
 /* Página Home (index.html) */
 @import './components/main.css';

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sessionStorage.setItem('user', JSON.stringify(user));
             showToast('Login realizado com sucesso', false);
             // redireciona para a página userPage ( ainda n esta pronta manda p Home Page)
-            window.location.href = 'http://localhost:8080/index.html';
+            window.location.href = 'http://localhost:8080/pages/userpage.html';
           } else {
             //senha incorreta
             showToast('Email ou senha incorretos', true);
