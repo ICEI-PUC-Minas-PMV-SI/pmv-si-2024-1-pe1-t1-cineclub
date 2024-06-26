@@ -7,9 +7,12 @@
 
 ## Personas
 
-Sandra, uma mulher de 33 anos, vive em São Paulo, Brasil, e trabalha na área de publicidade. Apesar de solteira, prefere passar suas noites em casa na companhia de seu gato. Sandra, como entusiasta de serviços de streaming, ela está constantemente à procura do próximo programa ou filme para assistir. No entanto, muitas vezes, enfrenta dificuldade em tomar uma decisão devido à ampla variedade de opções disponíveis. Além disso, quando sabe qual filme deseja assistir, às vezes tem dificuldade em encontrá-lo entre os diversos serviços de streaming. Sandra adora ficar por dentro das novidades do universo do cinema e séries, acompanhar eventos e descobrir quais filmes são indicados em premiações.
+![Sandra](https://images.unsplash.com/photo-1577519005828-0d09b071c8f3?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-Ricardo, um engenheiro de software de 45 anos do Rio de Janeiro, Brasil, desfruta de uma vida social ativa ao lado de sua esposa e filhos. Ele adora sair para jantar com amigos e tem uma paixão pela música, tocando guitarra nas horas vagas.  Ricardo, à noite, após um dia de trabalho na área de tecnologia, Ricardo gosta de relaxar em casa e assistir a filmes de ação, filmes em família ou documentários interessantes nos serviços de streaming, onde ele aprecia a diversidade de opções disponíveis para escolher. Além disso, ele precisa de ter listas salvas como favoritos e indicações com sabe no que ele assistiu. 
+<p align="justify"> <strong>Sandra</strong>, uma mulher de 33 anos, vive em São Paulo, Brasil, e trabalha na área de publicidade. Apesar de solteira, prefere passar suas noites em casa na companhia de seu gato. Sandra, como entusiasta de serviços de streaming, ela está constantemente à procura do próximo programa ou filme para assistir. No entanto, muitas vezes, enfrenta dificuldade em tomar uma decisão devido à ampla variedade de opções disponíveis. Além disso, quando sabe qual filme deseja assistir, às vezes tem dificuldade em encontrá-lo entre os diversos serviços de streaming. Sandra adora ficar por dentro das novidades do universo do cinema e séries, acompanhar eventos e descobrir quais filmes são indicados em premiações.<p>
+
+![Ricardo](https://images.unsplash.com/photo-1609220136736-443140cffec6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+<p align="justify"><strong>Ricardo</strong>, um engenheiro de software de 45 anos do Rio de Janeiro, Brasil, desfruta de uma vida social ativa ao lado de sua esposa e filhos. Ele adora sair para jantar com amigos e tem uma paixão pela música, tocando guitarra nas horas vagas.  Ricardo, à noite, após um dia de trabalho na área de tecnologia, Ricardo gosta de relaxar em casa e assistir a filmes de ação, filmes em família ou documentários interessantes nos serviços de streaming, onde ele aprecia a diversidade de opções disponíveis para escolher. Além disso, ele precisa de ter listas salvas como favoritos e indicações com sabe no que ele assistiu.<p>
 
 ## Histórias de Usuários
 
@@ -17,15 +20,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Sara | Quero uma lista de filmes que combine com minha personalidade          | Não ter fadiga de opções
+|Sandra | Quero uma lista de filmes que combine com minha personalidade          | Não ter fadiga de opções
 |Ricardo | Quero uma lista de filmes por gênero que abranja todos os serviços de streaming | Saber onde encontrar o filme que desejar 
-|Sara  | Preciso de uma lista dos meus filmes já assistidos | Recordar do que já assisti
+|Sandra  | Preciso de uma lista dos meus filmes já assistidos | Recordar do que já assisti
 |Ricardo | Encontrar novos filmes e documentários | Expandir meus horizontes
-|Sara | Avaliar filmes dando estrelas com notas de 1 a 5 | Para que possa compartilhar com meus amigos
+|Sandra | Avaliar filmes dando estrelas com notas de 1 a 5 | Para que possa compartilhar com meus amigos
 |Ricardo | Quero uma lista de filmes que seja apenas para família | Para que meus filhos possam assistir
-|Sara  | Preciso ter indicações de novos filmes que ainda serão lançados nos serviços de streaming| Para assistir os filmes 
-|Sara  | Preciso saber as datas das premiações e filmes indicados | Para se manter ataulizada
-|Sara  | Preciso poder compartilhar meus filmes assistidos e avaliações nas redes sociais| Para meus amigos saberem o que estou assistindo
+|Sandra  | Preciso ter indicações de novos filmes que ainda serão lançados nos serviços de streaming| Para assistir os filmes 
+|Sandra  | Preciso saber as datas das premiações e filmes indicados | Para se manter ataulizada
+|Sandra  | Preciso poder compartilhar meus filmes assistidos e avaliações nas redes sociais| Para meus amigos saberem o que estou assistindo
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
